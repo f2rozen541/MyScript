@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\wk\\android\\Git\\MyScript_ATK-android\\samples\\SingleCharWidgetSample\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\wk\\android\\Git\\MyScript_ATK-android\\samples\\SingleCharWidgetSample\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\SingleCharWidgetSample\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\SingleCharWidgetSample\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }

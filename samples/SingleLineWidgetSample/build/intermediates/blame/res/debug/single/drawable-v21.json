@@ -4,7 +4,15 @@
         "source": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\SingleLineWidgetSample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
+        "merged": "D:\\wk\\android\\Git\\MyScript_ATK-android\\samples\\SingleLineWidgetSample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "D:\\wk\\android\\Git\\MyScript_ATK-android\\samples\\SingleLineWidgetSample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\SingleLineWidgetSample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\SingleLineWidgetSample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\wk\\android\\Git\\MyScript_ATK-android\\samples\\SingleLineWidgetSample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "D:\\wk\\android\\Git\\MyScript_ATK-android\\samples\\SingleLineWidgetSample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     }
 ]

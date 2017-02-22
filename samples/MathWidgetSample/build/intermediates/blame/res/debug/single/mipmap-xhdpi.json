@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\MathWidgetSample\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
         "source": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\MathWidgetSample\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\wk\\android\\Git\\MyScript_ATK-android\\samples\\MathWidgetSample\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\wk\\android\\Git\\MyScript_ATK-android\\samples\\MathWidgetSample\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]

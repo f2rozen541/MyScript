@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="MyScript_ATK-DiagramWidget-android-widget-">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/DiagramWidgetSample/build/intermediates/exploded-aar/MyScript_ATK-DiagramWidget-android-widget/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/DiagramWidgetSample/build/intermediates/exploded-aar/MyScript_ATK-DiagramWidget-android-widget/res" />
+      <root url="jar://$PROJECT_DIR$/DiagramWidgetSample/build/intermediates/exploded-aar/MyScript_ATK-DiagramWidget-android-widget/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
