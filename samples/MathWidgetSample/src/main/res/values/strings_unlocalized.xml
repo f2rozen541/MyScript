@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- String for User Dictionary Activity -->
+<resources>
+
+    <!-- MSB Certificate -->
+    <string name="certificate_error_title">Certificate error</string>
+    <string name="certificate_error_msg">The recognizer certificate has expired or is invalid</string>
+
+    <!-- Language pack -->
+    <string name="language_pack_update_title">Initialization</string>
+    <string name="langpack_parsing_error_title">Language pack error</string>
+    <string name="langpack_parsing_error_msg">Error while parsing the Equation resource pack: this pack is not available</string>
+
+    <!-- Recognition timeout -->
+    <string name="recotimeout_error_title">Recognition timeout</string>
+    <string name="recotimeout_error_msg">Recognition time exceeded the timeout. Continue ?</string>
+</resources>

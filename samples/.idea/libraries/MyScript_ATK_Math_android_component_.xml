@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="MyScript_ATK-Math-android-component-">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/MathWidgetSample/build/intermediates/exploded-aar/MyScript_ATK-Math-android-component/res" />
+      <root url="jar://$PROJECT_DIR$/MathWidgetSample/build/intermediates/exploded-aar/MyScript_ATK-Math-android-component/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

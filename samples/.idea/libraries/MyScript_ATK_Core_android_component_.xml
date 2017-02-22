@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="MyScript_ATK-Core-android-component-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SingleCharWidgetSample/build/intermediates/exploded-aar/MyScript_ATK-Core-android-component/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/SingleCharWidgetSample/build/intermediates/exploded-aar/MyScript_ATK-Core-android-component/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

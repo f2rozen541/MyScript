@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="nanoc 3.8.0" name="generator">
+    <meta content="notranslate" name="google">
+    <title>Geometry Widget | Widgets & Components</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="../favicon.ico" rel="icon">
+    <link href="../favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="../favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="../favicon-48x48.png" rel="icon" sizes="48x48" type="image/png">
+    <link href="../favicon-64x64.png" rel="icon" sizes="64x64" type="image/png">
+    <link href="../favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="../android-128x128.png" rel="icon" sizes="128x128">
+    <link href="../android-192x192.png" rel="icon" sizes="192x192">
+    <link href="../apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="../apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="../apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="../apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="../apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link color="#00A7CF" href="../safari-icon.svg" rel="mask-icon">
+    <meta content="Geometry Widget | Widgets &amp; Components" name="application-name">
+    <meta content="#00A7CF" name="msapplication-TileColor">
+    <meta content="../myscript-tile-small.png" name="msapplication-square70x70logo">
+    <meta content="../myscript-tile-medium.png" name="msapplication-square150x150logo">
+    <meta content="../myscript-tile-wide.png" name="msapplication-wide310x150logo">
+    <meta content="../myscript-tile-large.png" name="msapplication-square310x310logo">
+    <link href="../css/main.css" rel="stylesheet">
+    <script src="../js/all.js"></script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">skip to content</a>
+    <a id="top"></a>
+    <header class="header">
+      <nav class="primary-nav navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-target="#secondary-nav" data-toggle="collapse" type="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">Widgets & Components</a>
+          </div>
+          <div class="collapse navbar-collapse" id="primary-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../index.html">Overview</a></li>
+              <li><a href="../text.html">Text</a></li>
+              <li><a href="../math.html">Math</a></li>
+              <li class="active"><a href="../graphics.html">Graphics</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="secondary-nav navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="secondary-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="gew.html">Geometry Widget</a></li>
+              <li><a href="diw.html">Diagram Widget</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--[if lt IE 9 ]>
+      <div class="container browser-upgrade alert alert-danger alert-dismissable">
+        <button aria-hidden="true" class="close" data-dismiss="alert" type="button">&times;</button>
+        You are using an <strong>outdated</strong> browser.
+        Please <a href="http://browsehappy.com/">upgrade</a> to improve your
+        experience.
+      </div>
+    <![endif]-->
+    <header class="jumbotron secondary">
+      <div class="container">
+        <h1 class="title">Geometry Widget</h1>
+      </div>
+    </header>
+    <main class="container" id="content">
+      <div class="row page">
+        <div class="col-md-9 col-md-push-3" role="main">
+          <nav class="breadcrumb" role="navigation">
+            <li><a href="../graphics.html">Graphics</a></li>
+            <li><span class="active" title="You're here." >Geometry Widget</span></li>
+          </nav>
+          <article class="page">
+            
+            <h2 id="overview">Overview</h2>
+            
+            <p><strong>Geometry Widget</strong> is an interactive shape input method, enabling users to draw 2D geometric constructions freehand, with a finger or a stylus. It is designed to ensure a natural, handwriting-based HMI with real-time recognition.</p>
+            
+            <p>Geometric properties, also called constraints in this documentation, can be modified by the user thanks to editing gestures and value input.</p>
+            
+            <div class="image align-center"><figure><img src="../images/gew-overview.png" width="356" height="321" alt=""></figure></div>
+            
+            <h2 id="use-cases">Use cases</h2>
+            
+            <p>See below a few integration examples.</p>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>The input box is a Math Widget feature and cannot be reproduced with Geometry Widget only. Note that all available features are listed in the <a href="#api">API</a>.</div>
+            
+            <h3 id="education">Education</h3>
+            
+            <p>In this scenario, the user handwrites a shape, labels its vertices, modifies it using constraints such as segment length, angle width, parallelism and perpendicularity. The shape is automatically beautified and updated with these constraints.</p>
+            
+            <div class="image align-center"><figure><img src="../images/gew-usecase-edu1.jpg" width="800" height="597" alt=""></figure></div>
+            
+            <div class="image align-center"><figure><img src="../images/gew-usecase-edu2.jpg" width="780" height="592" alt=""></figure></div>
+            
+            <h3 id="interior-decoration">Interior decoration</h3>
+            
+            <p>In this scenario, the user designs furniture by combining handwritten shapes that are then beautified and by setting their size using constraints.</p>
+            
+            <div class="image align-center"><figure><img src="../images/gew-usecase-deco.jpg" width="640" height="478" alt=""></figure></div>
+            
+            <h2 id="features">Features</h2>
+            
+            <p><strong>Geometry input</strong><br>
+            Canvas where the user can draw geometrical figures freehand.</p>
+            
+            <p><strong>Real-time shape recognition and beautification</strong><br>
+            Real-time recognition and beautification of shapes taking into account remarkable angles, alignment attraction (vertical/horizontal/parallel/perpendicular), congruence and connection attraction.</p>
+            
+            <p><strong>Constraint detection</strong><br>
+            Real-time detection of identical angles and/or segment values, horizontality, verticality, perpendicularity, parallelism, junction/connection, congruence.</p>
+            
+            <p><strong>Editing gestures</strong><br>
+            Gestures for perpendicularity, parallelism, junction/connection, equality of angles and/or lengths, circumference can be applied onto the recognized shapes. Undo/redo features are supported.</p>
+            
+            <p><strong>Segment length and angle value input</strong><br>
+            Segment lengths and angle values can be edited. Segments/angles are automatically updated and properly rendered.</p>
+            
+            <p><strong>Serialization</strong><br>
+            Resulting geometrical figures can be saved to be reloaded for later editing. They can also be exported as images.</p>
+            
+            <h2 id="supported-shapes">Supported shapes</h2>
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>User action </th>
+                  <th>Gesture</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Circle</td>
+                  <td><img src="../images/gew-circle.png" width="450" height="150" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Circular arc</td>
+                  <td><img src="../images/gew-arc.png" width="450" height="100" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Ellipse</td>
+                  <td><img src="../images/gew-ellipse.png" width="450" height="100" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Elliptical arc</td>
+                  <td><img src="../images/gew-arc-ellipse.png" width="450" height="100" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Parallelogram</td>
+                  <td><img src="../images/gew-parallelogram.png" width="450" height="150" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Point <em>(cross in one stroke)</em>
+            </td>
+                  <td><img src="../images/gew-cross.png" width="450" height="100" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Point <em>(small and empty circle)</em>
+            </td>
+                  <td><img src="../images/gew-empty-dot.png" width="450" height="100" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Point <em>(scribble)</em>
+            </td>
+                  <td><img src="../images/gew-scribble.png" width="450" height="100" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Polygon</td>
+                  <td><img src="../images/gew-polygon.png" width="450" height="150" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Polyline</td>
+                  <td><img src="../images/gew-polyline.png" width="450" height="100" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Quadrilateral</td>
+                  <td><img src="../images/gew-quadrilateral.png" width="450" height="150" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Rectangle</td>
+                  <td><img src="../images/gew-rectangle.png" width="450" height="150" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Rhombus</td>
+                  <td><img src="../images/gew-rhombus.png" width="450" height="100" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Segment</td>
+                  <td><img src="../images/gew-segment.png" width="450" height="100" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Square</td>
+                  <td><img src="../images/gew-square.png" width="450" height="150" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Trapezoid</td>
+                  <td><img src="../images/gew-trapezoid.png" width="450" height="100" alt=""></td>
+                </tr>
+                <tr>
+                  <td>Triangle</td>
+                  <td><img src="../images/gew-triangle.png" width="450" height="150" alt=""></td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <h2 id="supported-gestures">Supported gestures</h2>
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>User action </th>
+                  <th>Gesture</th>
+                  <th>Description</th>
+                  <th>Code sample </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Single tap</td>
+                  <td><img src="../images/graphics-single-tap.png" width="450" height="100" alt=""></td>
+                  <td>Briefly touch an item</td>
+                  <td>Select the item</td>
+                </tr>
+                <tr>
+                  <td>Scratch-out</td>
+                  <td><img src="../images/gew-scratch-out.png" width="500" height="100" alt=""></td>
+                  <td>Scratch out an item</td>
+                  <td>Erase</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <h2 id="supported-constraints">Supported constraints</h2>
+            
+            <p>A defined set of geometric constraints is supported by the Geometry Widget. There are two types of constraints:</p>
+            
+            <ul>
+              <li>
+            <strong>implicit:</strong> The constraint is automatically detected when a shape is created.</li>
+              <li>
+            <strong>explicit:</strong>The user draws a gesture to set a constraint.</li>
+            </ul>
+            
+            <p>Explicit constraints are stronger than implicit constraints. By combining the shape creation and geometric constraints, the user can create a complex geometric construction.</p>
+            
+            <p>Implicit and explicit constraints can be shown on the figure with specific symbols and are displayed with a different color:</p>
+            
+            <ul>
+              <li>blue for implicit right angle,</li>
+              <li>one from a set of 10 colors for explicit constraints (by pair for same length/angle).</li>
+            </ul>
+            
+            <p>The following table shows which constraints are supported and the various ways to define them:</p>
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>Constraint </th>
+                  <th>Implicit creation</th>
+                  <th>Explicit creation </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+            <strong>Angle value</strong>  <img src="../images/gew-angle-value.png" width="450" height="100" alt="">
+            </td>
+                  <td>n/a</td>
+                  <td>Input the angle value.</td>
+                </tr>
+                <tr>
+                  <td>
+            <strong>Concentricity</strong>  <img src="../images/gew-concentricity.png" width="450" height="150" alt="">
+            </td>
+                  <td>Two circles whose centers are close.</td>
+                  <td>Circle two circles’ centers.</td>
+                </tr>
+                <tr>
+                  <td>
+            <strong>Connection</strong>  <img src="../images/gew-connection1.png" width="450" height="100" alt="">  <img src="../images/gew-connection2.png" width="450" height="200" alt="">
+            </td>
+                  <td>An extremity or point connected to another shape or point.</td>
+                  <td>Small circle on the two shapes or segments to be joined. You can also circle a segment crossing a circle to indicate it is the diameter.</td>
+                </tr>
+                <tr>
+                  <td>
+            <strong>Equality of angles</strong>  <img src="../images/gew-same-angle.png" width="450" height="150" alt="">
+            </td>
+                  <td>Any shape that has two or more equal angles. Remarkable line: bisector.</td>
+                  <td>Angle mark gesture on two segments (one time on two different angles), to indicate that they are equal.</td>
+                </tr>
+                <tr>
+                  <td>
+            <strong>Equality of lengths</strong>  <img src="../images/gew-same-length.png" width="450" height="150" alt="">
+            </td>
+                  <td>Any shape that has two or more equal segments.</td>
+                  <td>Short line gesture on a segment or circle (one time on two different shapes), to indicate that their lengths are equal.</td>
+                </tr>
+                <tr>
+                  <td>
+            <strong>Horizontal</strong>  <img src="../images/gew-horizontal.png" width="450" height="100" alt="">
+            </td>
+                  <td>An almost horizontal segment.</td>
+                  <td>n/a</td>
+                </tr>
+                <tr>
+                  <td>
+            <strong>Junction</strong>  <img src="../images/gew-junction1.png" width="450" height="100" alt="">  <img src="../images/gew-junction2.png" width="450" height="150" alt="">  <img src="../images/gew-junction3.png" width="450" height="150" alt="">
+            </td>
+                  <td>Extremities of shapes or segments that have been drawn very close. Note that points are regarded as extremities here.</td>
+                  <td>Small circle/ellipse on the two shapes or segments to be joined. You can also circle: a) a point inside a circle to indicate it is the center, b) a segment inside a circle to indicate it is a radius.</td>
+                </tr>
+                <tr>
+                  <td>
+            <strong>Length value</strong>  <img src="../images/gew-length-value.png" width="450" height="100" alt="">
+            </td>
+                  <td>n/a</td>
+                  <td>Input the segment length.</td>
+                </tr>
+                <tr>
+                  <td>
+            <strong>Parallelism</strong>  <img src="../images/gew-parallelism.png" width="450" height="100" alt="">
+            </td>
+                  <td>Any shape that has two or more parallel segments.</td>
+                  <td>One chevron on two different segments, to indicate that they are parallel.</td>
+                </tr>
+                <tr>
+                  <td>
+            <strong>Perpendicularity</strong>  <img src="../images/gew-perpendicularity.png" width="450" height="100" alt="">
+            </td>
+                  <td>Any shape that has at least one right angle. Remarkable lines: altitude and perpendicular bisector.</td>
+                  <td>Right angle gesture (chevron) in one stroke.</td>
+                </tr>
+                <tr>
+                  <td>
+            <strong>Radius equality</strong>  <img src="../images/gew-radius-equality.png" width="450" height="200" alt="">
+            </td>
+                  <td>Two circles with two similar diameters.</td>
+                  <td>See <strong>Equality of lengths</strong>.</td>
+                </tr>
+                <tr>
+                  <td>
+            <strong>Vertical</strong>  <img src="../images/gew-vertical.png" width="450" height="150" alt="">
+            </td>
+                  <td>An almost vertical segment.</td>
+                  <td>n/a</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <h2 id="recommendations">Recommendations</h2>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>The default settings provided in the code sample have been defined to provide the best user experience related to geometry exercises for middle school level. Feel free to adapt those settings according to your use case, as your app may have other requirements.</div>
+            
+            <h3 id="small-strokes-rejection">Small strokes rejection</h3>
+            
+            <p>This value is set to avoid small strokes. It means that strokes smaller than the defined value will be recognized as dots.</p>
+            
+            <p>If you increase the value, you will detect more dots. If you decrease it, you will detect smaller strokes, but dot input will be harder.</p>
+            
+            <h3 id="ellipse-and-circle-recognition">Ellipse and circle recognition</h3>
+            
+            <p>This value is set to ease the drawing of large circles, but can be updated according to your needs. The higher the value, the more likely the widget will recognize circles rather than ellipses. The lower the value, the more the widget will give accurate recognition of all kinds of ellipses and circles.</p>
+            
+            <div class="image align-center"><figure><img src="../images/gew-circle-ratio.png" width="808" height="286" alt=""></figure></div>
+            
+            <h3 id="detection-and-display-for-implicit-and-explicit-constraints">Detection and display for implicit and explicit constraints</h3>
+            
+            <p>Both implicit and explicit constraints’ detection and display features can be enabled or disabled. The default values are set to:</p>
+            
+            <ul>
+              <li>ease the recognition of geometric properties and help the user to draw right angles, parallels, same-length segments, freehand or by using explicit gestures.</li>
+              <li>help the user to learn gestures.</li>
+              <li>avoid a visual overload of the canvas with explicit constraints.</li>
+            </ul>
+            
+            <p>Implicit constraints are mainly a drawing assistance. They are automatically detected by the widget and quickly fade out. We recommend making implicit constraints fade out because they can be confused with explicit constraints. They do have the same graphic design but not the same behavior. We also suggest you add a button to let the user display implicit constraints on demand.</p>
+            
+            <p>Explicit constraints are to be manually set and have priority over implicit constraints. New explicit constraints have priority over previous constraints.</p>
+            
+            <p>You can also choose to disable the implicit constraints’ detection and display features.</p>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>To erase an explicit constraint, the display feature for explicit constraints has to be enabled.</div>
+            
+            <p>In the below figures, you can see examples of detection and display feature for implicit constraints.</p>
+            
+            <div class="image align-center"><figure><img src="../images/gew-constraints1.png" width="600" height="200" alt=""><figcaption>Fig.01: Detection and display are disabled.</figcaption></figure></div>
+            
+            <div class="image align-center"><figure><img src="../images/gew-constraints2.png" width="600" height="200" alt=""><figcaption>Fig.02: Detection is enabled but display is not.</figcaption></figure></div>
+            
+            <div class="image align-center"><figure><img src="../images/gew-constraints3.png" width="600" height="200" alt=""><figcaption>Fig.03: Both detection and display are enabled.</figcaption></figure></div>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>All constraint types can be enabled or disabled independently of each other.</div>
+            
+            <h3 id="point-size">Point size</h3>
+            
+            <p>The point size value is set to be visible:</p>
+            
+            <ul>
+              <li>on lines crossing.</li>
+              <li>on large lines (up to 3pt).</li>
+              <li>on explicit constraints.</li>
+            </ul>
+            
+            <div class="image align-center"><figure><img src="../images/gew-point-size.png" width="260" height="213" alt=""></figure></div>
+            
+            <h3 id="adjacent-angle-marker">Adjacent angle marker</h3>
+            
+            <p>This value is set to offer a graphic rendering that is visible with adjacent angles and clearly differentiated from the drawing.</p>
+            
+            <div class="image align-center"><figure><img src="../images/gew-angle-marker.png" width="260" height="235" alt=""></figure></div>
+            
+            <h3 id="equality-of-lengths">Equality of lengths</h3>
+            
+            <p>This value is set to offer a graphic rendering that is visible over lines and clearly differentiated from the drawing.</p>
+            
+            <div class="image align-center"><figure><img src="../images/gew-same-length2.png" width="224" height="137" alt=""></figure></div>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>We recommend that you do not set the value too high.</div>
+            
+            <h3 id="set-of-colors">Set of colors</h3>
+            
+            <p>The defined set of colors is set to:</p>
+            
+            <ul>
+              <li>be differentiated from each other,</li>
+            </ul>
+            
+            <div class="image align-center"><figure><img src="../images/gew-colour1.png" width="300" height="176" alt=""></figure></div>
+            
+            <div class="image align-center"><figure><img src="../images/gew-colour2.png" width="512" height="108" alt=""></figure></div>
+            
+            <ul>
+              <li>be distinguished by color-blind people (deuteranopia, protanopia, tritanopia).</li>
+            </ul>
+            
+            <div class="image align-center"><figure><img src="../images/gew-colour3.png" width="512" height="160" alt=""></figure></div>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>We strongly recommend not modifying those colors.</div>
+            
+            <h3 id="stroke-display">Stroke display</h3>
+            
+            <p>The stroke display value is set to:</p>
+            
+            <ul>
+              <li>keep a clean and precise drawing with light thickness,</li>
+            </ul>
+            
+            <div class="image align-center"><figure><img src="../images/gew-stroke-display1.png" width="341" height="313" alt=""></figure></div>
+            
+            <ul>
+              <li>be distinguishable from implicit and explicit constraints, as it is defined in a different neutral color.</li>
+            </ul>
+            
+            <div class="image align-center"><figure><img src="../images/gew-stroke-display2.png" width="283" height="300" alt=""></figure></div>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>If you want to allow the user to draw with different colors, be careful to keep their constraints visible and understandable.</div>
+            
+            <h2 id="integration">Integration</h2>
+            
+            <div class="alert alert-warning">
+            <span class="icon-warning"></span>General information about ATK (licenses, samples, etc.) is available in the <a href="../index.html#license-management">ATK Overview section</a>.</div>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>Please make sure to use the latest version of Android Studio and have all Android tools and SDK (level 15 or up) installed and configured properly.</div>
+            
+            <h3 id="step-1---download-your-certificate">Step 1 - Download your Certificate</h3>
+            
+            <ol>
+              <li>Download the certificate from the <a href="http://partners.myscript.com" target="_blank">Support website</a>.</li>
+              <li>Paste it in your project and start creating your app.</li>
+            </ol>
+            
+            <h3 id="step-2---configure-your-dependencies">Step 2 - Configure your Dependencies</h3>
+            
+            <ul>
+              <li>In the <code>build.gradle</code> file of your project, add:</li>
+            </ul>
+            
+            <pre><code class="language-groovy highlight highlight"><span class="n">repositories</span> <span class="o">{</span>&#x000A;    <span class="n">flatDir</span> <span class="o">{</span>&#x000A;        <span class="c1">// Location of your package's `libs` directory containing `*.aar` files.</span>&#x000A;        <span class="n">dirs</span> <span class="s1">'path/to/libs'</span>&#x000A;    <span class="o">}</span>&#x000A;<span class="o">}</span></code></pre>
+            
+            <ul>
+              <li>In the <code>dependencies</code> section, add:</li>
+            </ul>
+            
+            <pre><code class="language-groovy highlight highlight"><span class="n">compile</span> <span class="s1">'com.android.support:appcompat-v7:23.+'</span>&#x000A;&#x000A;<span class="n">compile</span><span class="o">(</span><span class="nl">name:</span> <span class="s1">'MyScript_ATK-Core-android-component'</span><span class="o">,</span> <span class="nl">ext:</span> <span class="s1">'aar'</span><span class="o">)</span>&#x000A;<span class="n">compile</span><span class="o">(</span><span class="nl">name:</span> <span class="s1">'MyScript_ATK-Geometry-android-component'</span><span class="o">,</span> <span class="nl">ext:</span> <span class="s1">'aar'</span><span class="o">)</span>&#x000A;<span class="n">compile</span><span class="o">(</span><span class="nl">name:</span> <span class="s1">'MyScript_ATK-GeometryWidget-android-widget'</span><span class="o">,</span> <span class="nl">ext:</span> <span class="s1">'aar'</span><span class="o">)</span></code></pre>
+            
+            <h3 id="step-3---add-resources">Step 3 - Add Resources</h3>
+            
+            <p>Copy the <code>assets</code> directory from <code>samples/GeometryWidgetSample/src/main</code> into your project. It contains the following directories:</p>
+            
+            <ul>
+              <li>
+            <code>shape</code>: contains a <code>shape.conf</code> file with the different resources and configurations to be activated,</li>
+              <li>
+            <code>resources/shape</code>: contains resources,</li>
+              <li>
+            <code>css</code>: contains style information.</li>
+            </ul>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>Resources are available for download on the <a href="http://partners.myscript.com" target="_blank">Support website</a>.</div>
+            
+            <h3 id="step-4---add-a-layout-resource">Step 4 - Add a Layout Resource</h3>
+            
+            <p>To integrate the Geometry Widget view, add the following snippet in your layout.</p>
+            
+            <pre><code class="language-xml highlight highlight"><span class="nt">&lt;com.myscript.atk.geometry.widget.GeometryWidget</span>&#x000A;	<span class="na">android:id=</span><span class="s">"@+id/geometry_widget"</span>&#x000A;	<span class="na">android:layout_width=</span><span class="s">"fill_parent"</span>&#x000A;	<span class="na">android:layout_height=</span><span class="s">"fill_parent"</span>&#x000A;<span class="nt">/&gt;</span></code></pre>
+            
+            <h3 id="step-5---start-with-minimal-integration-code">Step 5 - Start with Minimal Integration Code</h3>
+            
+            <p>Edit the <code>MainActivity</code> class:</p>
+            
+            <pre><code class="language-java highlight highlight"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainActivity</span> <span class="kd">extends</span> <span class="n">AppCompatActivity</span> <span class="kd">implements</span>&#x000A;    <span class="n">GeometryWidgetApi</span><span class="o">.</span><span class="na">OnConfigureListener</span><span class="o">,</span>&#x000A;    <span class="n">GeometryWidgetApi</span><span class="o">.</span><span class="na">OnRecognitionListener</span>&#x000A;<span class="o">{</span>&#x000A;&#x000A;  <span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="n">String</span> <span class="n">TAG</span> <span class="o">=</span> <span class="s">"GeometryDemo"</span><span class="o">;</span>&#x000A;&#x000A;  <span class="kd">private</span> <span class="n">GeometryWidgetApi</span> <span class="n">widget</span><span class="o">;</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">protected</span> <span class="kt">void</span> <span class="n">onCreate</span><span class="o">(</span><span class="n">Bundle</span> <span class="n">savedInstanceState</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="kd">super</span><span class="o">.</span><span class="na">onCreate</span><span class="o">(</span><span class="n">savedInstanceState</span><span class="o">);</span>&#x000A;&#x000A;    <span class="n">setContentView</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">layout</span><span class="o">.</span><span class="na">activity_main</span><span class="o">);</span>&#x000A;&#x000A;    <span class="n">widget</span> <span class="o">=</span> <span class="o">(</span><span class="n">GeometryWidgetApi</span><span class="o">)</span> <span class="n">findViewById</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">geometry_widget</span><span class="o">);</span>&#x000A;    <span class="k">if</span> <span class="o">(!</span><span class="n">widget</span><span class="o">.</span><span class="na">registerCertificate</span><span class="o">(</span><span class="n">MyCertificate</span><span class="o">.</span><span class="na">getBytes</span><span class="o">()))</span>&#x000A;    <span class="o">{</span>&#x000A;      <span class="n">AlertDialog</span><span class="o">.</span><span class="na">Builder</span> <span class="n">dlgAlert</span>  <span class="o">=</span> <span class="k">new</span> <span class="n">AlertDialog</span><span class="o">.</span><span class="na">Builder</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setMessage</span><span class="o">(</span><span class="s">"Please use a valid certificate."</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setTitle</span><span class="o">(</span><span class="s">"Invalid certificate"</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setCancelable</span><span class="o">(</span><span class="kc">false</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setPositiveButton</span><span class="o">(</span><span class="s">"OK"</span><span class="o">,</span> <span class="k">new</span> <span class="n">DialogInterface</span><span class="o">.</span><span class="na">OnClickListener</span><span class="o">()</span>&#x000A;      <span class="o">{</span>&#x000A;        <span class="kd">public</span> <span class="kt">void</span> <span class="n">onClick</span><span class="o">(</span><span class="n">DialogInterface</span> <span class="n">dialog</span><span class="o">,</span> <span class="kt">int</span> <span class="n">which</span><span class="o">)</span>&#x000A;        <span class="o">{</span>&#x000A;          <span class="c1">//dismiss the dialog</span>&#x000A;        <span class="o">}</span>&#x000A;      <span class="o">});</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">create</span><span class="o">().</span><span class="na">show</span><span class="o">();</span>&#x000A;      <span class="k">return</span><span class="o">;</span>&#x000A;    <span class="o">}</span>&#x000A;&#x000A;    <span class="c1">// Listen to widget events (see onConfigurationBegin and onRecognitionEnd APIs)</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnConfigureListener</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnRecognitionListener</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>&#x000A;&#x000A;    <span class="c1">// references assets directly from the APK to avoid extraction in application</span>&#x000A;    <span class="c1">// file system</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">addSearchDir</span><span class="o">(</span><span class="s">"zip://"</span> <span class="o">+</span> <span class="n">getPackageCodePath</span><span class="o">()</span> <span class="o">+</span> <span class="s">"!/assets/conf"</span><span class="o">);</span>&#x000A;&#x000A;    <span class="c1">// The configuration is an asynchronous operation. Callbacks are provided to</span>&#x000A;    <span class="c1">// monitor the beginning and end of the configuration process and update the UI</span>&#x000A;    <span class="c1">// of the input method accordingly.</span>&#x000A;    <span class="c1">//</span>&#x000A;    <span class="c1">// "shape" references the shape bundle name in conf/shape.conf file in your assets.</span>&#x000A;    <span class="c1">// "standard" references the configuration name in shape.conf</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">configure</span><span class="o">(</span><span class="s">"shape"</span><span class="o">,</span> <span class="s">"standard"</span><span class="o">);</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">protected</span> <span class="kt">void</span> <span class="n">onDestroy</span><span class="o">()</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnRecognitionListener</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnConfigureListener</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span>&#x000A;&#x000A;    <span class="c1">// release widget's resources</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">release</span><span class="o">();</span>&#x000A;    <span class="kd">super</span><span class="o">.</span><span class="na">onDestroy</span><span class="o">();</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">public</span> <span class="kt">void</span> <span class="n">onConfigurationBegin</span><span class="o">(</span><span class="n">GeometryWidgetApi</span> <span class="n">widget</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">public</span> <span class="kt">void</span> <span class="n">onConfigurationEnd</span><span class="o">(</span><span class="n">GeometryWidgetApi</span> <span class="n">widget</span><span class="o">,</span> <span class="kt">boolean</span> <span class="n">success</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="k">if</span><span class="o">(!</span><span class="n">success</span><span class="o">)</span>&#x000A;    <span class="o">{</span>&#x000A;      <span class="n">Toast</span><span class="o">.</span><span class="na">makeText</span><span class="o">(</span><span class="n">getApplicationContext</span><span class="o">(),</span> <span class="n">widget</span><span class="o">.</span><span class="na">getErrorString</span><span class="o">(),</span> <span class="n">Toast</span><span class="o">.</span><span class="na">LENGTH_LONG</span><span class="o">).</span><span class="na">show</span><span class="o">();</span>&#x000A;      <span class="n">Log</span><span class="o">.</span><span class="na">e</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"Unable to configure the Geometry Widget: "</span> <span class="o">+</span> <span class="n">widget</span><span class="o">.</span><span class="na">getErrorString</span><span class="o">());</span>&#x000A;      <span class="k">return</span><span class="o">;</span>&#x000A;    <span class="o">}</span>&#x000A;    <span class="n">Toast</span><span class="o">.</span><span class="na">makeText</span><span class="o">(</span><span class="n">getApplicationContext</span><span class="o">(),</span> <span class="s">"Geometry Widget Configured"</span><span class="o">,</span> <span class="n">Toast</span><span class="o">.</span><span class="na">LENGTH_SHORT</span><span class="o">).</span><span class="na">show</span><span class="o">();</span>&#x000A;    <span class="k">if</span><span class="o">(</span><span class="n">BuildConfig</span><span class="o">.</span><span class="na">DEBUG</span><span class="o">)</span>&#x000A;      <span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"Geometry Widget configured!"</span><span class="o">);</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">public</span> <span class="kt">void</span> <span class="n">onRecognitionBegin</span><span class="o">(</span><span class="n">GeometryWidgetApi</span> <span class="n">widget</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">public</span> <span class="kt">void</span> <span class="n">onRecognitionEnd</span><span class="o">(</span><span class="n">GeometryWidgetApi</span> <span class="n">widget</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="n">Toast</span><span class="o">.</span><span class="na">makeText</span><span class="o">(</span><span class="n">getApplicationContext</span><span class="o">(),</span> <span class="s">"Recognition update"</span><span class="o">,</span> <span class="n">Toast</span><span class="o">.</span><span class="na">LENGTH_SHORT</span><span class="o">).</span><span class="na">show</span><span class="o">();</span>&#x000A;    <span class="k">if</span><span class="o">(</span><span class="n">BuildConfig</span><span class="o">.</span><span class="na">DEBUG</span><span class="o">)</span>&#x000A;    <span class="o">{</span>&#x000A;      <span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"Geometry Widget recognition"</span><span class="o">);</span>&#x000A;    <span class="o">}</span>&#x000A;  <span class="o">}</span>&#x000A;<span class="o">}</span></code></pre>
+            
+            <h2 id="api">API</h2>
+            
+            <p>See the <a href="../_/gew/ref/javadoc/index.html">API documentation for Android</a>.</p>
+          </article>
+        </div>
+        <div class="col-md-3 col-md-pull-9">
+          <aside class="sidebar hidden-print" role="complementary">
+            <nav class="toc" role="navigation">
+              <ul class="nav">
+                <li>
+                  <a href="#overview">Overview</a>
+                </li>
+                <li>
+                  <a href="#use-cases">Use cases</a>
+                </li>
+                <li>
+                  <a href="#features">Features</a>
+                </li>
+                <li>
+                  <a href="#supported-shapes">Supported shapes</a>
+                </li>
+                <li>
+                  <a href="#supported-gestures">Supported gestures</a>
+                </li>
+                <li>
+                  <a href="#supported-constraints">Supported constraints</a>
+                </li>
+                <li>
+                  <a href="#recommendations">Recommendations</a>
+                </li>
+                <li>
+                  <a href="#integration">Integration</a>
+                </li>
+                <li>
+                  <a href="#api">API</a>
+                </li>
+              </ul>
+              <a class="back-to-top" href="#top">Back to top</a>
+            </nav>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer class="container footer">
+      <hr>
+      <p>Copyright © 2016 MyScript&reg;. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

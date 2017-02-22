@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86,armeabi-v7a,armeabi,arm64-v8a"
+    api-level="23"
+    density="280dpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="576800862198568"
+    token="-7849951287216002512"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="307" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="16" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="576663034160704"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\outputs\apk\GeometryWidgetSample-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="576800862198568"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\SingleLineWidgetSample\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\sltw_bg_pattern.png",
+        "source": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\SingleLineWidgetSample\\src\\main\\res\\drawable-nodpi\\sltw_bg_pattern.png"
+    },
+    {
+        "merged": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\SingleLineWidgetSample\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\sltw_text_cursor_holo_light.9.png",
+        "source": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\SingleLineWidgetSample\\src\\main\\res\\drawable-nodpi\\sltw_text_cursor_holo_light.9.png"
+    }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beautify">Converter</string>
+    <string name="copy">Copiar</string>
+    <string name="delete">Excluir</string>
+    <string name="edit">Editar</string>
+    <string name="finish">Concluído</string>
+    <string name="set_as_doodle">Desenho livre</string>
+    <string name="typeset">Converter</string>
+</resources>

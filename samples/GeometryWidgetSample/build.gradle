@@ -1,0 +1,22 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.myscript.atk.geometry.sample"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 2
+        versionName "1.1"
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:23.+'
+    compile(name: 'MyScript_ATK-Core-android-component', ext: 'aar')
+    compile(name: 'MyScript_ATK-Geometry-android-component', ext: 'aar')
+    compile(name: 'MyScript_ATK-GeometryWidget-android-widget', ext: 'aar')
+    compile project(':myscript-certificate')
+}

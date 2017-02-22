@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="nanoc 3.8.0" name="generator">
+    <meta content="notranslate" name="google">
+    <title>Single Line Widget | Widgets & Components</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="../favicon.ico" rel="icon">
+    <link href="../favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="../favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="../favicon-48x48.png" rel="icon" sizes="48x48" type="image/png">
+    <link href="../favicon-64x64.png" rel="icon" sizes="64x64" type="image/png">
+    <link href="../favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="../android-128x128.png" rel="icon" sizes="128x128">
+    <link href="../android-192x192.png" rel="icon" sizes="192x192">
+    <link href="../apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="../apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="../apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="../apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="../apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link color="#00A7CF" href="../safari-icon.svg" rel="mask-icon">
+    <meta content="Single Line Widget | Widgets &amp; Components" name="application-name">
+    <meta content="#00A7CF" name="msapplication-TileColor">
+    <meta content="../myscript-tile-small.png" name="msapplication-square70x70logo">
+    <meta content="../myscript-tile-medium.png" name="msapplication-square150x150logo">
+    <meta content="../myscript-tile-wide.png" name="msapplication-wide310x150logo">
+    <meta content="../myscript-tile-large.png" name="msapplication-square310x310logo">
+    <link href="../css/main.css" rel="stylesheet">
+    <script src="../js/all.js"></script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">skip to content</a>
+    <a id="top"></a>
+    <header class="header">
+      <nav class="primary-nav navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-target="#secondary-nav" data-toggle="collapse" type="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">Widgets & Components</a>
+          </div>
+          <div class="collapse navbar-collapse" id="primary-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../index.html">Overview</a></li>
+              <li class="active"><a href="../text.html">Text</a></li>
+              <li><a href="../math.html">Math</a></li>
+              <li><a href="../graphics.html">Graphics</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="secondary-nav navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="secondary-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="scw.html">Single Character Widget</a></li>
+              <li class="active"><a href="sltw.html">Single Line Widget</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--[if lt IE 9 ]>
+      <div class="container browser-upgrade alert alert-danger alert-dismissable">
+        <button aria-hidden="true" class="close" data-dismiss="alert" type="button">&times;</button>
+        You are using an <strong>outdated</strong> browser.
+        Please <a href="http://browsehappy.com/">upgrade</a> to improve your
+        experience.
+      </div>
+    <![endif]-->
+    <header class="jumbotron secondary">
+      <div class="container">
+        <h1 class="title">Single Line Widget</h1>
+      </div>
+    </header>
+    <main class="container" id="content">
+      <div class="row page">
+        <div class="col-md-9 col-md-push-3" role="main">
+          <nav class="breadcrumb" role="navigation">
+            <li><a href="../text.html">Text</a></li>
+            <li><span class="active" title="You're here." >Single Line Widget</span></li>
+          </nav>
+          <article class="page">
+            
+            <h2 id="overview">Overview</h2>
+            
+            <p><strong>Single Line Widget</strong> is an interactive input method enabling users to handwrite a single line of text. It is a widget designed to ensure a natural, handwriting-based HMI with real-time recognition and ink editing gestures, thanks to a user-friendly interface.</p>
+            
+            <p>Single Line Widget manages a line of text, modeling it as an infinite horizontal ribbon, also known as the writing area. As the user writes in a continuous flow, the ribbon automatically scrolls after a short delay and turns handwritten ink into typeset characters.</p>
+            
+            <p>The scroll bar and the cursor allow the user to go back and forth the line to change text - in case it has not been properly recognized - either with editing gestures or by choosing an alternative (or candidate) suggested by the widget.</p>
+            
+            <div class="image align-center"><figure><img src="../images/sltw-gif.gif" width="472" height="754" alt=""></figure></div>
+            
+            <h2 id="use-cases">Use cases</h2>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>The below use cases are only examples of applications where Single Line Widget has been used, sometimes with additional features. Note that all available features are listed in the <a href="#api">API</a>.</div>
+            
+            <h3 id="sms">SMS</h3>
+            
+            <p>Here is an integration example of Single Line Widget in MyScript Stylus for iOS. In this scenario, the user handwrites a text message on a smartphone. Candidates and editing gestures can be used to modify text.</p>
+            
+            <div class="image align-center"><figure><img src="../images/sltwa-usecase.png" width="387" height="512" alt=""></figure></div>
+            
+            <h3 id="form-filling">Form-filling</h3>
+            
+            <p>Here is an integration example of Single Line Widget in a form-filling application for iOS. In this scenario, the user fills out a form using handwriting. Candidates and editing gestures can be used to modify text.</p>
+            
+            <div class="image align-center"><figure><img src="../images/sltwi-usecase.png" width="500" height="441" alt=""></figure></div>
+            
+            <h2 id="features">Features</h2>
+            
+            <p><strong>Text input with horizontal auto-scrolling</strong><br>
+            Canvas where handwritten text automatically scrolls to free writing space.</p>
+            
+            <p><strong>Real-time cursive text</strong><br>
+            Real-time recognition of handwritten text (printscript and cursive).</p>
+            
+            <p><strong>Typeset rendering</strong><br>
+            Captured handwritten text can be turned into typeset text in real-time.</p>
+            
+            <p><strong>Editing gestures</strong><br>
+            The following gestures can be applied on both original handwritten text and typeset text: single tap, long press, return, erase, select, underline, join, insert and overwrite.</p>
+            
+            <p><strong>Option list (candidates)</strong><br>
+            Word option list for non-Asian languages and character option list for Asian languages.</p>
+            
+            <p><strong>Customization options</strong></p>
+            
+            <ul>
+              <li>Text size, color &amp; font</li>
+              <li>Ink width &amp; color</li>
+              <li>Background image of the scrolling area</li>
+              <li>Baseline position, thickness and color</li>
+              <li>Auto-scroll margin and delay (auto-scroll feature can be enabled/disabled)</li>
+              <li>Auto-typeset delay (auto-typeset feature can be enabled/disabled)</li>
+            </ul>
+            
+            <p><strong>Writing and correction modes</strong></p>
+            
+            <p>The writing mode is designed to enable the user to write text in a continuous flow. The writing area scrolls automatically after a short delay, once the user has finished writing. Scrolling of the writing area is managed by the widget.</p>
+            
+            <p>The correction mode is designed to enable the user to navigate and edit the text already entered. A cursor bar is displayed in the writing area.</p>
+            
+            <p><strong>Cursor interface</strong></p>
+            
+            <p>In correction mode, Single Line Widget displays a cursor bar in the writing area. The input method manages and sets the position of the cursor bar which is moved accordingly in the writing area.</p>
+            
+            <p>Positioning the cursor inside the text automatically selects the word or character at the position of the cursor, depending on the current selection mode. This triggers a selection change event that notifies the input method of the available handwriting candidates.</p>
+            
+            <p><strong>Languages</strong></p>
+            
+            <p>Single Line Widget supports  64 languages for Android and 59 languages for iOS and Windows. The full list is available on the <a href="https://dev.myscript.com/language-list/?tab=atk-sl" target="_blank">Developer Portal</a>.</p>
+            
+            <h2 id="recommendations">Recommendations</h2>
+            
+            <h3 id="gesture-detection">Gesture detection</h3>
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>User action </th>
+                  <th>Gesture</th>
+                  <th>Description </th>
+                  <th>Sample &amp; default actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Single tap</strong></td>
+                  <td><img src="../images/atk-gesture-tap.png" width="298" height="137" alt=""></td>
+                  <td>Briefly touch a word</td>
+                  <td>No action by default whereas a cursor moves in the sample.</td>
+                </tr>
+                <tr>
+                  <td><strong>Long press</strong></td>
+                  <td><img src="../images/atk-gesture-longpress.png" width="298" height="137" alt=""></td>
+                  <td>Tap and hold down</td>
+                  <td>n/a</td>
+                </tr>
+                <tr>
+                  <td><strong>Return</strong></td>
+                  <td><img src="../images/atk-gesture-return.png" width="155" height="71" alt=""></td>
+                  <td>Draw a line downwards then leftwards</td>
+                  <td>Insert a hard line break</td>
+                </tr>
+                <tr>
+                  <td><strong>Erase</strong></td>
+                  <td><img src="../images/atk-gesture-erase.png" width="376" height="97" alt=""></td>
+                  <td>Strike through <strong>OR</strong> scratch out a word</td>
+                  <td>Erase</td>
+                </tr>
+                <tr>
+                  <td><strong>Select</strong></td>
+                  <td><img src="../images/atk-gesture-selection.png" width="141" height="86" alt=""></td>
+                  <td>Circle a word</td>
+                  <td>No action in the sample whereas there is a selection by default</td>
+                </tr>
+                <tr>
+                  <td><strong>Underline</strong></td>
+                  <td><img src="../images/atk-gesture-underline.png" width="180" height="86" alt=""></td>
+                  <td>Draw a line under a word</td>
+                  <td>No action in the sample whereas there is an underline by default</td>
+                </tr>
+                <tr>
+                  <td><strong>Join</strong></td>
+                  <td><img src="../images/atk-gesture-join.png" width="298" height="86" alt=""></td>
+                  <td>Draw a straight line upwards <strong>OR</strong> draw a line from one word to the next one</td>
+                  <td>Remove extra space</td>
+                </tr>
+                <tr>
+                  <td><strong>Insert</strong></td>
+                  <td><img src="../images/atk-gesture-break.png" width="167" height="97" alt=""></td>
+                  <td>Draw a straight line downwards</td>
+                  <td>Break a word</td>
+                </tr>
+                <tr>
+                  <td><strong>Overwrite</strong></td>
+                  <td><img src="../images/atk-gesture-overwrite.png" width="167" height="97" alt=""></td>
+                  <td>Write a letter (or a whole word) on top of another</td>
+                  <td>Overwrite</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>These gestures might be confusing for your users at first, so you might want to integrate only some of these. If you choose to integrate all the gestures, we recommend you clearly explain these to your users to avoid any confusion.</div>
+            
+            <h2 id="integration">Integration</h2>
+            
+            <div class="alert alert-warning">
+            <span class="icon-warning"></span>General information about ATK (licenses, samples, etc.) is available in the <a href="../index.html#license-management">ATK Overview section</a>.</div>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>Please make sure to use the latest version of Android Studio and have all Android tools and SDK (level 15 or up) installed and configured properly.</div>
+            
+            <h3 id="step-1---download-your-certificate">Step 1 - Download your Certificate</h3>
+            
+            <ol>
+              <li>Download the certificate from the <a href="http://partners.myscript.com" target="_blank">Support website</a>.</li>
+              <li>Paste it in your project and start creating your app.</li>
+            </ol>
+            
+            <h3 id="step-2---configure-your-dependencies">Step 2 - Configure your Dependencies</h3>
+            
+            <ul>
+              <li>In the <code>build.gradle</code> file of your project, add:</li>
+            </ul>
+            
+            <pre><code class="language-groovy highlight highlight"><span class="n">repositories</span> <span class="o">{</span>&#x000A;    <span class="n">flatDir</span> <span class="o">{</span>&#x000A;        <span class="c1">// Location of your package's `libs` directory containing `*.aar` files.</span>&#x000A;        <span class="n">dirs</span> <span class="s1">'path/to/libs'</span>&#x000A;    <span class="o">}</span>&#x000A;<span class="o">}</span></code></pre>
+            
+            <ul>
+              <li>In the <code>dependencies</code> section, add:</li>
+            </ul>
+            
+            <pre><code class="language-groovy highlight highlight"><span class="n">compile</span> <span class="s1">'com.android.support:appcompat-v7:23.+'</span>&#x000A;&#x000A;<span class="n">compile</span><span class="o">(</span><span class="nl">name:</span> <span class="s1">'MyScript_ATK-Core-android-component'</span><span class="o">,</span> <span class="nl">ext:</span> <span class="s1">'aar'</span><span class="o">)</span>&#x000A;<span class="n">compile</span><span class="o">(</span><span class="nl">name:</span> <span class="s1">'MyScript_ATK-Text-android-component'</span><span class="o">,</span> <span class="nl">ext:</span> <span class="s1">'aar'</span><span class="o">)</span>&#x000A;<span class="n">compile</span><span class="o">(</span><span class="nl">name:</span> <span class="s1">'MyScript_ATK-IMCommon-android-component'</span><span class="o">,</span> <span class="nl">ext:</span> <span class="s1">'aar'</span><span class="o">)</span>&#x000A;<span class="n">compile</span><span class="o">(</span><span class="nl">name:</span> <span class="s1">'MyScript_ATK-SingleLineWidget-android-widget'</span><span class="o">,</span> <span class="nl">ext:</span> <span class="s1">'aar'</span><span class="o">)</span></code></pre>
+            
+            <h3 id="step-3---add-resources">Step 3 - Add Resources</h3>
+            
+            <p>Copy the <code>assets</code> directory from <code>samples/SingleLineWidgetSample/src/main</code> into your project. Resources should include at least an <code>ak</code> resource. More <code>lk</code> resources can be added as well, to improve and/or constrain the handwriting recognition.</p>
+            
+            <p>Example: To use US English, resources should be at least:</p>
+            
+            <ul>
+              <li>
+            <code>resources/en_US/en_US-ak-cur.lite.res</code>,</li>
+              <li>
+            <code>resources/en_US/en_US-lk-text.lite.res</code>,</li>
+              <li>
+            <code>conf/en_US.conf</code>.</li>
+            </ul>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>Resources are available for download on the <a href="http://partners.myscript.com" target="_blank">Support website</a>. You can also customize your own resources: Check the <a href="https://dev.myscript.com/tools/" target="_blank">Developer Tools</a> page to discover how.</div>
+            
+            <h3 id="step-4---add-a-layout-resource">Step 4 - Add a Layout Resource</h3>
+            
+            <p>To integrate the Single Line Widget view, add the following snippet in your layout.</p>
+            
+            <pre><code class="language-xml highlight highlight"><span class="nt">&lt;com.myscript.atk.sltw.SingleLineWidget</span>&#x000A;    <span class="na">android:id=</span><span class="s">"@+id/singleLine_widget"</span>&#x000A;    <span class="na">android:layout_width=</span><span class="s">"match_parent"</span>&#x000A;    <span class="na">android:layout_height=</span><span class="s">"match_parent"</span>&#x000A;<span class="nt">/&gt;</span></code></pre>
+            
+            <h3 id="step-5---start-with-minimal-integration-code">Step 5 - Start with Minimal Integration Code</h3>
+            
+            <p>Edit the <code>MainActivity</code> class:</p>
+            
+            <pre><code class="language-java highlight highlight"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainActivity</span> <span class="kd">extends</span> <span class="n">AppCompatActivity</span> <span class="kd">implements</span>&#x000A;    <span class="n">SingleLineWidgetApi</span><span class="o">.</span><span class="na">OnConfiguredListener</span><span class="o">,</span>&#x000A;    <span class="n">SingleLineWidgetApi</span><span class="o">.</span><span class="na">OnTextChangedListener</span>&#x000A;<span class="o">{</span>&#x000A;&#x000A;  <span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="n">String</span> <span class="n">TAG</span> <span class="o">=</span> <span class="s">"SingleLineDemo"</span><span class="o">;</span>&#x000A;&#x000A;  <span class="kd">private</span> <span class="n">SingleLineWidgetApi</span> <span class="n">widget</span><span class="o">;</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">protected</span> <span class="kt">void</span> <span class="n">onCreate</span><span class="o">(</span><span class="n">Bundle</span> <span class="n">savedInstanceState</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="kd">super</span><span class="o">.</span><span class="na">onCreate</span><span class="o">(</span><span class="n">savedInstanceState</span><span class="o">);</span>&#x000A;&#x000A;    <span class="n">setContentView</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">layout</span><span class="o">.</span><span class="na">activity_main</span><span class="o">);</span>&#x000A;&#x000A;    <span class="n">widget</span> <span class="o">=</span> <span class="o">(</span><span class="n">SingleLineWidget</span><span class="o">)</span> <span class="n">findViewById</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">singleLine_widget</span><span class="o">);</span>&#x000A;    <span class="k">if</span> <span class="o">(!</span><span class="n">widget</span><span class="o">.</span><span class="na">registerCertificate</span><span class="o">(</span><span class="n">MyCertificate</span><span class="o">.</span><span class="na">getBytes</span><span class="o">()))</span>&#x000A;    <span class="o">{</span>&#x000A;      <span class="n">AlertDialog</span><span class="o">.</span><span class="na">Builder</span> <span class="n">dlgAlert</span>  <span class="o">=</span> <span class="k">new</span> <span class="n">AlertDialog</span><span class="o">.</span><span class="na">Builder</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setMessage</span><span class="o">(</span><span class="s">"Please use a valid certificate."</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setTitle</span><span class="o">(</span><span class="s">"Invalid certificate"</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setCancelable</span><span class="o">(</span><span class="kc">false</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setPositiveButton</span><span class="o">(</span><span class="s">"OK"</span><span class="o">,</span> <span class="k">new</span> <span class="n">DialogInterface</span><span class="o">.</span><span class="na">OnClickListener</span><span class="o">()</span>&#x000A;      <span class="o">{</span>&#x000A;        <span class="kd">public</span> <span class="kt">void</span> <span class="n">onClick</span><span class="o">(</span><span class="n">DialogInterface</span> <span class="n">dialog</span><span class="o">,</span> <span class="kt">int</span> <span class="n">which</span><span class="o">)</span>&#x000A;        <span class="o">{</span>&#x000A;          <span class="c1">//dismiss the dialog</span>&#x000A;        <span class="o">}</span>&#x000A;      <span class="o">});</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">create</span><span class="o">().</span><span class="na">show</span><span class="o">();</span>&#x000A;      <span class="k">return</span><span class="o">;</span>&#x000A;    <span class="o">}</span>&#x000A;&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnConfiguredListener</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnTextChangedListener</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>&#x000A;&#x000A;    <span class="c1">// references assets directly from the APK to avoid extraction in application</span>&#x000A;    <span class="c1">// file system</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">addSearchDir</span><span class="o">(</span><span class="s">"zip://"</span> <span class="o">+</span> <span class="n">getPackageCodePath</span><span class="o">()</span> <span class="o">+</span> <span class="s">"!/assets/conf"</span><span class="o">);</span>&#x000A;&#x000A;    <span class="c1">// The configuration is an asynchronous operation. Callbacks are provided to</span>&#x000A;    <span class="c1">// monitor the beginning and end of the configuration process and update the UI</span>&#x000A;    <span class="c1">// of the input method accordingly.</span>&#x000A;    <span class="c1">//</span>&#x000A;    <span class="c1">// "en_US" references the en_US bundle name in conf/en_US.conf file in your assets.</span>&#x000A;    <span class="c1">// "cur_text" references the configuration name in en_US.conf</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">configure</span><span class="o">(</span><span class="s">"en_US"</span><span class="o">,</span> <span class="s">"cur_text"</span><span class="o">);</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">protected</span> <span class="kt">void</span> <span class="n">onDestroy</span><span class="o">()</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnTextChangedListener</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnConfiguredListener</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span>&#x000A;&#x000A;    <span class="kd">super</span><span class="o">.</span><span class="na">onDestroy</span><span class="o">();</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">public</span> <span class="kt">void</span> <span class="n">onConfigured</span><span class="o">(</span><span class="n">SingleLineWidgetApi</span> <span class="n">widget</span><span class="o">,</span> <span class="kt">boolean</span> <span class="n">success</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="k">if</span><span class="o">(!</span><span class="n">success</span><span class="o">)</span>&#x000A;    <span class="o">{</span>&#x000A;      <span class="n">Toast</span><span class="o">.</span><span class="na">makeText</span><span class="o">(</span><span class="n">getApplicationContext</span><span class="o">(),</span> <span class="n">widget</span><span class="o">.</span><span class="na">getErrorString</span><span class="o">(),</span> <span class="n">Toast</span><span class="o">.</span><span class="na">LENGTH_LONG</span><span class="o">).</span><span class="na">show</span><span class="o">();</span>&#x000A;      <span class="n">Log</span><span class="o">.</span><span class="na">e</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"Unable to configure the Single Line Widget: "</span> <span class="o">+</span> <span class="n">widget</span><span class="o">.</span><span class="na">getErrorString</span><span class="o">());</span>&#x000A;      <span class="k">return</span><span class="o">;</span>&#x000A;    <span class="o">}</span>&#x000A;    <span class="n">Toast</span><span class="o">.</span><span class="na">makeText</span><span class="o">(</span><span class="n">getApplicationContext</span><span class="o">(),</span> <span class="s">"Single Line Widget Configured"</span><span class="o">,</span> <span class="n">Toast</span><span class="o">.</span><span class="na">LENGTH_SHORT</span><span class="o">).</span><span class="na">show</span><span class="o">();</span>&#x000A;    <span class="k">if</span><span class="o">(</span><span class="n">BuildConfig</span><span class="o">.</span><span class="na">DEBUG</span><span class="o">)</span>&#x000A;      <span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"Single Line Widget configured!"</span><span class="o">);</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">public</span> <span class="kt">void</span> <span class="n">onTextChanged</span><span class="o">(</span><span class="n">SingleLineWidgetApi</span> <span class="n">widget</span><span class="o">,</span> <span class="n">String</span> <span class="n">s</span><span class="o">,</span> <span class="kt">boolean</span> <span class="n">intermediate</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="n">Toast</span><span class="o">.</span><span class="na">makeText</span><span class="o">(</span><span class="n">getApplicationContext</span><span class="o">(),</span> <span class="s">"Recognition update"</span><span class="o">,</span> <span class="n">Toast</span><span class="o">.</span><span class="na">LENGTH_SHORT</span><span class="o">).</span><span class="na">show</span><span class="o">();</span>&#x000A;    <span class="k">if</span><span class="o">(</span><span class="n">BuildConfig</span><span class="o">.</span><span class="na">DEBUG</span><span class="o">)</span>&#x000A;    <span class="o">{</span>&#x000A;      <span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"Single Line Widget recognition: "</span> <span class="o">+</span> <span class="n">widget</span><span class="o">.</span><span class="na">getText</span><span class="o">());</span>&#x000A;    <span class="o">}</span>&#x000A;  <span class="o">}</span>&#x000A;<span class="o">}</span></code></pre>
+            
+            <h2 id="api">API</h2>
+            
+            <p>See the <a href="../_/sltw/ref/javadoc/index.html">API documentation for Android</a>.</p>
+          </article>
+        </div>
+        <div class="col-md-3 col-md-pull-9">
+          <aside class="sidebar hidden-print" role="complementary">
+            <nav class="toc" role="navigation">
+              <ul class="nav">
+                <li>
+                  <a href="#overview">Overview</a>
+                </li>
+                <li>
+                  <a href="#use-cases">Use cases</a>
+                </li>
+                <li>
+                  <a href="#features">Features</a>
+                </li>
+                <li>
+                  <a href="#recommendations">Recommendations</a>
+                </li>
+                <li>
+                  <a href="#integration">Integration</a>
+                </li>
+                <li>
+                  <a href="#api">API</a>
+                </li>
+              </ul>
+              <a class="back-to-top" href="#top">Back to top</a>
+            </nav>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer class="container footer">
+      <hr>
+      <p>Copyright © 2016 MyScript&reg;. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

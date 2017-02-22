@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_d1e020e06364bb806f1c7f4ad0e300cdb540613f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_36f88dab3c6b52d9127b57e5cfac912cbcc1973c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_5f8b248e2be43bc2d716a1bae28d1bcbe418afe4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\exploded-aar\MyScript_ATK-UI-android-component\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="eef4cf71b5c5d504bddb08235c3b732faf2a2847">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-MyScript_ATK-UI-android-component_6b0856bfce4340d9d07b5a97cfbf7c30f426e033\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8d578b31401da47916d85586d32452035e84c731">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4274d568384fd2939c8fdd07ce0bc80c2cd9e096\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4dd54876e052578b99dbc7dc85b9e8e2a2932c84">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_80511b2078012a5ade99417d8d037c39957a47ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\exploded-aar\MyScript_ATK-DiagramWidget-android-widget\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3ded75a255a686a0eb0cd94197377e926d4005d7">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-MyScript_ATK-DiagramWidget-android-widget_95db570d6622ad1c4c6e164341715195b16b8f42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="630f89bf619f295169fbb69f6fef8d4c648a8565">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c80b85ccca5bdcf75c2eb06d9a699f9602eae4e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_f7ea2bb84cccd63f34eafdc8a310b3e9193e57d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_6546485778827cf2b6653842a06370a0f2d1594b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\exploded-aar\MyScript_ATK-Diagram-android-component\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69c5e3003dd36b5f7e26cc673e8da8f36f4f7577">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-MyScript_ATK-Diagram-android-component_b12429361afd3362d442a3b8365bb3b2572d097f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\exploded-aar\MyScript_ATK-GeometryWidget-android-widget\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3a878b5977825fa6792aac2ad9322227952f6b7c">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-MyScript_ATK-GeometryWidget-android-widget_bd566d8d8dc85fc4867d0c3fae59e5b0be56bc8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_28375a6f7681ddbac28bf20c7a8534cc86919d2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_fabd4d36563c039de962803747f90863b54853e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_ccee1e6f30b891d712dac2230c938281fae0fb6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_6c2a284fdd61d0d8ac24aa3991d9cfbc35ef85c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_b15443ab54a40cd40993d20315e2889b27ad36ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\exploded-aar\MyScript_ATK-Geometry-android-component\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5460846d7fc2f4c528c33f30ef47319ac77bbaa5">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-MyScript_ATK-Geometry-android-component_d1307593addb9bf0b7b96f34a94e8a09b519be30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a399508aad1e4f33c64af8f7bf81c27462723022">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b97d018d13949a7bea9159284adc117b6527caec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\exploded-aar\MyScript_ATK-Text-android-component\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67fe33bb6289d894a475168b50e09e84177b7334">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-MyScript_ATK-Text-android-component_4dd377982d9cbc7058a4e6457ba4bb393162bb12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_51871047b5de652af0a2c925a1a6991f6e00aa7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\exploded-aar\MyScript_ATK-Core-android-component\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="45554625dbf2cd1226bf0723bed7f9c73dcc81c3">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-MyScript_ATK-Core-android-component_d0be588ee025ca5dea291bc522f82221e1472345\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\exploded-aar\MyScript_ATK-Core-android-component\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="45554625dbf2cd1226bf0723bed7f9c73dcc81c3">
+        <dex dex="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\GeometryWidgetSample\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-MyScript_ATK-Core-android-component_26da7b23a28510dc124ba5a9e55fa2319b226e9a\classes.dex" />
+    </item>
+
+</items>

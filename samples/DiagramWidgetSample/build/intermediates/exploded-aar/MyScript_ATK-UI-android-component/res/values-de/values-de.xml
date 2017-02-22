@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beautify">Konvertieren</string>
+    <string name="copy">Kopieren</string>
+    <string name="delete">Löschen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="finish">Fertig</string>
+    <string name="set_as_doodle">Als Freihandzeichnung festlegen</string>
+    <string name="typeset">Konvertieren</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beautify">変換</string>
+    <string name="copy">コピー</string>
+    <string name="delete">削除</string>
+    <string name="edit">編集</string>
+    <string name="finish">完了</string>
+    <string name="set_as_doodle">自由描画に設定</string>
+    <string name="typeset">変換</string>
+</resources>

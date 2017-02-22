@@ -1,0 +1,4 @@
+<resources>
+    <integer name="text_field_lines">1</integer>
+    <dimen name="baseline_position">100dp</dimen>
+</resources>

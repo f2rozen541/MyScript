@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beautify">Преобразовать</string>
+    <string name="copy">Копировать</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+    <string name="finish">Готово</string>
+    <string name="set_as_doodle">Сделать наброском</string>
+    <string name="typeset">Преобразовать</string>
+</resources>

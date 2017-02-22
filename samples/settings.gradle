@@ -1,0 +1,6 @@
+include ':myscript-certificate'
+include ':SingleCharWidgetSample'
+include ':MathWidgetSample'
+include ':DiagramWidgetSample'
+include ':SingleLineWidgetSample'
+include ':GeometryWidgetSample'

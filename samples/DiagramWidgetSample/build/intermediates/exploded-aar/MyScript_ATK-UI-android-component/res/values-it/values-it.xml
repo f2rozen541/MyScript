@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beautify">Converti</string>
+    <string name="copy">Copia</string>
+    <string name="delete">Elimina</string>
+    <string name="edit">Modifica</string>
+    <string name="finish">Fine</string>
+    <string name="set_as_doodle">Imposta come ghirigori</string>
+    <string name="typeset">Converti</string>
+</resources>

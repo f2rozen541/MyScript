@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="prompter_empty_width">0dp</dimen>
+    <dimen name="prompter_item_padding">13dp</dimen>
+    <dimen name="prompter_shape_menu_text_width">160dp</dimen>
+    <dimen name="prompter_text_size">14dp</dimen>
+</resources>

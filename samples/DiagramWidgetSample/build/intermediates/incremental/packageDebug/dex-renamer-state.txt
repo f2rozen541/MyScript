@@ -1,0 +1,7 @@
+#Wed Feb 22 16:26:44 CST 2017
+base.0=C\:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b97d018d13949a7bea9159284adc117b6527caec
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4274d568384fd2939c8fdd07ce0bc80c2cd9e096\\classes.dex
+base.1=C\:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4274d568384fd2939c8fdd07ce0bc80c2cd9e096
+file.0=C\:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b97d018d13949a7bea9159284adc117b6527caec\\classes.dex

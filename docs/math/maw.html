@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="nanoc 3.8.0" name="generator">
+    <meta content="notranslate" name="google">
+    <title>Math Widget | Widgets & Components</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="../favicon.ico" rel="icon">
+    <link href="../favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="../favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="../favicon-48x48.png" rel="icon" sizes="48x48" type="image/png">
+    <link href="../favicon-64x64.png" rel="icon" sizes="64x64" type="image/png">
+    <link href="../favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="../android-128x128.png" rel="icon" sizes="128x128">
+    <link href="../android-192x192.png" rel="icon" sizes="192x192">
+    <link href="../apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="../apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="../apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="../apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="../apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link color="#00A7CF" href="../safari-icon.svg" rel="mask-icon">
+    <meta content="Math Widget | Widgets &amp; Components" name="application-name">
+    <meta content="#00A7CF" name="msapplication-TileColor">
+    <meta content="../myscript-tile-small.png" name="msapplication-square70x70logo">
+    <meta content="../myscript-tile-medium.png" name="msapplication-square150x150logo">
+    <meta content="../myscript-tile-wide.png" name="msapplication-wide310x150logo">
+    <meta content="../myscript-tile-large.png" name="msapplication-square310x310logo">
+    <link href="../css/main.css" rel="stylesheet">
+    <script src="../js/all.js"></script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">skip to content</a>
+    <a id="top"></a>
+    <header class="header">
+      <nav class="primary-nav navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-target="#secondary-nav" data-toggle="collapse" type="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">Widgets & Components</a>
+          </div>
+          <div class="collapse navbar-collapse" id="primary-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../index.html">Overview</a></li>
+              <li><a href="../text.html">Text</a></li>
+              <li class="active"><a href="../math.html">Math</a></li>
+              <li><a href="../graphics.html">Graphics</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="secondary-nav navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="secondary-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="maw.html">Math Widget</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--[if lt IE 9 ]>
+      <div class="container browser-upgrade alert alert-danger alert-dismissable">
+        <button aria-hidden="true" class="close" data-dismiss="alert" type="button">&times;</button>
+        You are using an <strong>outdated</strong> browser.
+        Please <a href="http://browsehappy.com/">upgrade</a> to improve your
+        experience.
+      </div>
+    <![endif]-->
+    <header class="jumbotron secondary">
+      <div class="container">
+        <h1 class="title">Math Widget</h1>
+      </div>
+    </header>
+    <main class="container" id="content">
+      <div class="row page">
+        <div class="col-md-9 col-md-push-3" role="main">
+          <nav class="breadcrumb" role="navigation">
+            <li><a href="../math.html">Math</a></li>
+            <li><span class="active" title="You're here." >Math Widget</span></li>
+          </nav>
+          <article class="page">
+            
+            <h2 id="overview">Overview</h2>
+            
+            <p><strong>Math Widget</strong> is an interactive input method, enabling users to smoothly handwrite mathematical operations and equations, which can then be typeset and solved. Based on MyScript Math SDK, it displays its features in a user-friendly interface.</p>
+            
+            <p>Math Widget is designed to ensure a natural, handwriting-based HMI with real-time recognition and ink editing gestures. It also offers all the calculation features of a common scientific calculator, including exponential and trigonometric functions.</p>
+            
+            <div class="image align-center"><figure><img src="../images/math-overview.png" width="512" height="259" alt=""></figure></div>
+            
+            <h2 id="use-cases">Use cases</h2>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>The below use cases are only examples of applications where Math Widget has been used, sometimes with additional features. Note that all available features are listed in the <a href="#api">API</a>.</div>
+            
+            <h3 id="myscript-calculator">MyScript Calculator</h3>
+            
+            <p>MyScript Calculator is an handwriting calculator based on MyScript Math. In this scenario, the user handwrites mathematical operations and equations. Handwritten input is converted into a digital text formula. The widget can also solve simple arithmetic and trigonometric formulas, returning a calculated result. The content of the displays can be exported as an image or as a MathML or LaTeX string.</p>
+            
+            <div class="image align-center"><figure><img src="../images/maw-usecase1.png" width="4417" height="780" alt=""></figure></div>
+            
+            <h3 id="myscript-mathpad">MyScript MathPad</h3>
+            
+            <p>MyScript MathPad is a handwriting LaTeX generator based on MyScript Math. It allows you to handwrite your equations and mathematical expressions and convert them for easy sharing.</p>
+            
+            <div class="image align-center"><figure><img src="../images/maw-usecase2.png" width="698" height="239" alt=""></figure></div>
+            
+            <h2 id="features">Features</h2>
+            
+            <p><strong>Real-time recognition of symbols and rules</strong><br>
+            Real-time recognition of mathematical rules and more than 200 mathematical symbols and characters.</p>
+            
+            <p><strong>Typeset rendering</strong><br>
+            Captured handwritten equations can be rendered to typeset equations in real-time. Rendering can be customized (font, color, background, etc.).</p>
+            
+            <p><strong>Editing gestures</strong><br>
+            Correction (strikethrough, scratch-out) can be applied on both original handwritten text and typeset text. They can also be deactivated if needed. Undo/redo features are supported.</p>
+            
+            <p><strong>LaTeX, MathML, image and text results</strong><br>
+            Results are available as LaTeX, MathML, image and text.</p>
+            
+            <p><strong>Solver activation</strong><br>
+            Entered equations can be solved and question marks are supported as unknown variables. Rounding and truncation options are available.</p>
+            
+            <p><strong>Save and restore</strong><br>
+            Save and restore your equation in MyScript Math format.</p>
+            
+            <h2 id="supported-symbols">Supported symbols</h2>
+            
+            <p>See below a non-exhaustive list of supported symbols.</p>
+            
+            <p>It is also possible to create a custom grammar resource, by constraining the recognition for particular use cases (integral calculus, vector calculus, finite element calculus, etc.). For more information, see the <a href="https://dev.myscript.com/tools/" target="_blank">Developer tools</a> page.</p>
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>Type of item </th>
+                  <th>Items</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Letters (Latin alphabet)</td>
+                  <td>a b c d e f g h i j k l m n o p q r s t u v w x y z  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</td>
+                </tr>
+                <tr>
+                  <td>Digits</td>
+                  <td>0 1 2 3 4 5 6 7 8 9</td>
+                </tr>
+                <tr>
+                  <td>Mathematical symbols (including operators)</td>
+                  <td> € $ £ ¥ ₩ ¢ ( ) &lt; &gt; [ ] { }   ! # % &amp; ? @ / \ | ∥ © ∂∅ ∇ ∞ ℂ ℕ ℚ ℝ ℤ + - ± × ÷ * ∘ · =  ‘ , .  : ; _ ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙⇐ ⇑ ⇒ ⇓ ⇔ ⇕ ∀ ∃  ∄  ∈ ∉  ∋  ∌ ∪ ∩  ⊂ ⊃  ⊄  ⊅ ∼  ≃ ≈ ≠ ≡ ≢ ≤ ≥ ≪ ≫ ∝  ∠ ∏ ∑ ∫ ∫∫ ∫∫∫ ∮ ∯ ∰ ∧   √l ⊕ ⊗ ⊖ ⊙ ¬Ψℑℜℓ↼⇀↽⇁⇋⇌∐∦≄≅≆≇≉≮≯≰≱⋉⋊⋮⌈⌉ ⌊⌋□ △ ⟦ ⟧ ⦞ 𝔻 ⫻</td>
+                </tr>
+                <tr>
+                  <td>Greek symbols frequently used in mathematics</td>
+                  <td>Γ Δ Ω α β γ δ ε η θ λ ν π ρ σ τ φ χ ψ ω ϕ µ</td>
+                </tr>
+                <tr>
+                  <td>Mathematical terms</td>
+                  <td>sin cos tan sinh cosh tanh arcsin arccos arctan cot coth min max arg argmin argmax inf sup lim liminf limsup ln log dx dy dz dt</td>
+                </tr>
+                <tr>
+                  <td>International convention units (weight, length, frequency, luminosity, dosage, pressure, etc.)</td>
+                  <td>km hm dam dm cm mm µm ha hl dal dl cl ml µl kg hg dag dg cg mg µg ms µs GHz MHz kHz Hz</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <h2 id="supported-rules">Supported rules</h2>
+            
+            <p>Each grammar sets out a number of production rules for equations, namely:</p>
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>Type of rule</th>
+                  <th>Written example</th>
+                  <th>Recognition</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Horizontal pair  <img src="../images/maw-parse-horzpair.png" width="51" height="33" alt="">
+            </td>
+                  <td><img src="../images/maw-rules-horzpair.png" width="94" height="58" alt=""></td>
+                  <td><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="95" height="55" viewbox="0 0 94.999955 54.999965" id="svg2" version="1.1">  <defs id="defs4"></defs>    <metadata id="metadata7">      </metadata>  <g id="layer1" transform="translate(0,-997.36225)">    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="36.391739" y="1032.0348" id="text4147"><tspan id="tspan4149" x="36.391739" y="1032.0348" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">2x</tspan></text>  </g></svg></td>
+                </tr>
+                <tr>
+                  <td>Fence  <img src="../images/maw-parse-fence.png" width="94" height="38" alt="">
+            </td>
+                  <td><img src="../images/maw-rules-fence.png" width="151" height="60" alt=""></td>
+                  <td><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" width="95.625" height="54.375" viewbox="0 0 95.625 54.375">  <metadata id="metadata8">      </metadata>  <defs id="defs6"></defs>    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="6.0352592" y="33.758236" id="text4138"><tspan id="tspan4140" x="6.0352592" y="33.758236" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">(2x)+3</tspan></text></svg></td>
+                </tr>
+                <tr>
+                  <td>Square root  <img src="../images/maw-parse-sqrt.png" width="39" height="32" alt="">
+            </td>
+                  <td><img src="../images/maw-rules-sqrt.png" width="97" height="70" alt=""></td>
+                  <td><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="95" height="55" viewbox="0 0 95.000001 54.999998" id="svg4151" version="1.1">  <defs id="defs4153"></defs>    <metadata id="metadata4156">      </metadata>  <g id="layer1" transform="translate(0,-997.36222)">    <g id="g4156">      <text id="text4710" y="1034.5355" x="21.662746" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" xml:space="preserve"><tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'" y="1034.5355" x="21.662746" id="tspan4712"><tspan id="tspan4135" style="font-size:27.5px">√</tspan>388</tspan></text>      <g id="g4153" transform="translate(0,-2)">        <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.2120043;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 37.548696,1011.4595 42.66235,0 -1.939187,-0.029" id="path4136"></path>      </g>    </g>  </g></svg></td>
+                </tr>
+                <tr>
+                  <td>Fraction  <img src="../images/maw-parse-fraction.png" width="40" height="67" alt="">
+            </td>
+                  <td><img src="../images/maw-rules-fraction.png" width="126" height="90" alt=""></td>
+                  <td><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="95" height="65" viewbox="0 0 95.000001 65.000001" id="svg5277" version="1.1">  <defs id="defs5279"></defs>    <metadata id="metadata5282">      </metadata>  <g id="layer1" transform="translate(0,-987.36216)">    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="19.188021" y="1015.0828" id="text5836"><tspan id="tspan5838" x="19.188021" y="1015.0828" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">2x+4</tspan><tspan x="19.188021" y="1046.3328" id="tspan5840" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'"> 5y-2</tspan></text>    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20.96424866px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="18.496519" y="1070.4731" id="text5844" transform="scale(1.0482124,0.95400512)"><tspan id="tspan5846" x="18.496519" y="1070.4731">_____</tspan></text>  </g></svg></td>
+                </tr>
+                <tr>
+                  <td>Subscript  <img src="../images/maw-parse-subscript.png" width="45" height="36" alt="">
+            </td>
+                  <td><img src="../images/maw-rules-subscript.png" width="78" height="61" alt=""></td>
+                  <td><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="95" height="55" viewbox="0 0 95.000001 55.000001" id="svg2" version="1.1">  <defs id="defs4"></defs>    <metadata id="metadata7">      </metadata>  <g id="layer1" transform="translate(0,-997.36216)">    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="38.658012" y="1026.1555" id="text4147"><tspan id="tspan4149" x="38.658012" y="1026.1555" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">x</tspan></text>    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="53.64674" y="1033.0668" id="text4147-6"><tspan id="tspan4149-3" x="53.64674" y="1033.0668" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">i</tspan></text>  </g></svg></td>
+                </tr>
+                <tr>
+                  <td>Superscript  <img src="../images/maw-parse-superscript.png" width="45" height="38" alt="">
+            </td>
+                  <td><img src="../images/maw-rules-superscript.png" width="58" height="52" alt=""></td>
+                  <td><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="95" height="55" viewbox="0 0 95.000001 55.000001" id="svg4714" version="1.1">  <defs id="defs4716"></defs>    <metadata id="metadata4719">      </metadata>  <g id="layer1" transform="translate(0,-997.36216)">    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="37.909805" y="1034.3098" id="text5273"><tspan id="tspan5275" x="37.909805" y="1034.3098" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">x²</tspan></text>  </g></svg></td>
+                </tr>
+                <tr>
+                  <td>Subsuperscript  <img src="../images/maw-parse-subsuperscript.png" width="45" height="49" alt="">
+            </td>
+                  <td><img src="../images/maw-rules-subsuperscript.png" width="105" height="83" alt=""></td>
+                  <td><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="95" height="55" viewbox="0 0 95.000001 55.000001" id="svg2" version="1.1">  <defs id="defs4"></defs>    <metadata id="metadata7">      </metadata>  <g id="layer1" transform="translate(0,-997.36216)">    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="30.658012" y="1024.1555" id="text4147"><tspan id="tspan4149" x="30.658012" y="1024.1555" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">x²</tspan></text>    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="45.64674" y="1031.3168" id="text4147-6"><tspan id="tspan4149-3" x="45.64674" y="1031.3168" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">i-1</tspan></text>  </g></svg></td>
+                </tr>
+                <tr>
+                  <td>Presuperscript  <img src="../images/maw-parse-presuperscript.png" width="45" height="35" alt="">
+            </td>
+                  <td><img src="../images/maw-rules-presuperscript.png" width="98" height="66" alt=""></td>
+                  <td><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="95" height="55" viewbox="0 0 95.000001 55.000001" id="svg4746" version="1.1">  <defs id="defs4748"></defs>    <metadata id="metadata4751">      </metadata>  <g id="layer1" transform="translate(0,-997.36216)">    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="18.828222" y="1034.1941" id="text5305"><tspan id="tspan5307" x="18.828222" y="1034.1941" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'"><tspan style="font-size:27.5px" id="tspan4140">√</tspan>625</tspan></text>    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="15.691131" y="1012.4335" id="text4136"><tspan id="tspan4138" x="15.691131" y="1012.4335" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">n</tspan></text>    <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.2120043;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 35.015719,1009.2289 42.66235,0 -1.939187,-0.029" id="path4136"></path>  </g></svg></td>
+                </tr>
+                <tr>
+                  <td>Overscript  <img src="../images/maw-parse-over.png" width="27" height="55" alt="">
+            </td>
+                  <td><img src="../images/maw-rules-over.png" width="63" height="65" alt=""></td>
+                  <td><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="95" height="55" viewbox="0 0 95.000001 55.000001" id="svg4173" version="1.1">  <defs id="defs4175"></defs>    <metadata id="metadata4178">      </metadata>  <g id="layer1" transform="translate(0,-997.36216)">    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="39.981049" y="1048.5759" id="text4732"><tspan x="39.981049" y="1048.5759" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'" id="tspan4736">Σ</tspan></text>    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="45.4104" y="1016.215" id="text4137"><tspan id="tspan4139" x="45.4104" y="1016.215" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">n</tspan></text>  </g></svg></td>
+                </tr>
+                <tr>
+                  <td>Underscript  <img src="../images/maw-parse-under.png" width="25" height="56" alt="">
+            </td>
+                  <td><img src="../images/maw-rules-under.png" width="84" height="76" alt=""></td>
+                  <td><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="95" height="55" viewbox="0 0 95.000001 55.000001" id="svg4173" version="1.1">  <defs id="defs4175"></defs>    <metadata id="metadata4178">      </metadata>  <g id="layer1" transform="translate(0,-997.36216)">    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="39.981049" y="1032.5759" id="text4732"><tspan x="39.981049" y="1032.5759" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'" id="tspan4736">Σ</tspan></text>    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="32.186951" y="1050.55" id="text4742"><tspan id="tspan4744" x="32.186951" y="1050.55" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">x=0</tspan></text>  </g></svg></td>
+                </tr>
+                <tr>
+                  <td>Underoverscript  <img src="../images/maw-parse-underover.png" width="25" height="79" alt="">
+            </td>
+                  <td><img src="../images/maw-rules-underover.png" width="77" height="103" alt=""></td>
+                  <td><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="95" height="70" viewbox="0 0 95.000001 70.000001" id="svg4173" version="1.1">  <defs id="defs4175"></defs>    <metadata id="metadata4178">      </metadata>  <g id="layer1" transform="translate(0,-982.36216)">    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="39.981049" y="1028.5759" id="text4732"><tspan x="39.981049" y="1028.5759" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'" id="tspan4736">Σ</tspan></text>    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="34.186951" y="1046.55" id="text4742"><tspan id="tspan4744" x="34.186951" y="1046.55" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">j=1</tspan></text>    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="45.4104" y="996.21503" id="text4137"><tspan id="tspan4139" x="45.4104" y="996.21503" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math'">n</tspan></text>  </g></svg></td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <h2 id="supported-operations">Supported operations</h2>
+            
+            <p>The solver is activated only if the equation contains numbers and/or fractions and at least one of the following operators:</p>
+            
+            <div class="image align-center"><figure><img src="../images/maw-tutorial-symbols.png" width="500" height="321" alt=""></figure></div>
+            
+            <h2 id="input-and-output-formats">Input and output formats</h2>
+            
+            <p>It is possible to reload a result, using a symbol list or some binary data previously generated.</p>
+            
+            <p>Math Widget also offers the possibility to export results in 5 different formats:</p>
+            
+            <ul>
+              <li>Math Widget symbol list</li>
+              <li>Binary data</li>
+              <li>Image</li>
+              <li>
+                <p>LaTeX</p>
+            
+                <p><code>\dfrac {-b\pm \sqrt {b^{2}-4ac}}{2a}</code></p>
+              </li>
+              <li>MathML</li>
+            </ul>
+            
+            <pre><code class="language-xml highlight"><span class="nt">&lt;math</span> <span class="na">xmlns=</span><span class="s">'http://www.w3.org/1998/Math/MathML'</span><span class="nt">&gt;</span>&#x000A;  <span class="nt">&lt;mfrac&gt;</span>&#x000A;    <span class="nt">&lt;mrow&gt;</span>&#x000A;      <span class="nt">&lt;mo&gt;</span> - <span class="nt">&lt;/mo&gt;</span>&#x000A;      <span class="nt">&lt;mi&gt;</span> b <span class="nt">&lt;/mi&gt;</span>&#x000A;      <span class="nt">&lt;mo&gt;</span> <span class="ni">&amp;#x00B1;</span> <span class="c">&lt;!-- plus-minus sign --&gt;</span> <span class="nt">&lt;/mo&gt;</span>&#x000A;      <span class="nt">&lt;msqrt&gt;</span>&#x000A;        <span class="nt">&lt;msup&gt;</span>&#x000A;          <span class="nt">&lt;mrow&gt;</span>&#x000A;            <span class="nt">&lt;mi&gt;</span> b <span class="nt">&lt;/mi&gt;</span>&#x000A;          <span class="nt">&lt;/mrow&gt;</span>&#x000A;          <span class="nt">&lt;mrow&gt;</span>&#x000A;            <span class="nt">&lt;mn&gt;</span> 2 <span class="nt">&lt;/mn&gt;</span>&#x000A;          <span class="nt">&lt;/mrow&gt;</span>&#x000A;        <span class="nt">&lt;/msup&gt;</span>&#x000A;        <span class="nt">&lt;mo&gt;</span> - <span class="nt">&lt;/mo&gt;</span>&#x000A;        <span class="nt">&lt;mn&gt;</span> 4 <span class="nt">&lt;/mn&gt;</span>&#x000A;        <span class="nt">&lt;mi&gt;</span> a <span class="nt">&lt;/mi&gt;</span>&#x000A;        <span class="nt">&lt;mi&gt;</span> c <span class="nt">&lt;/mi&gt;</span>&#x000A;      <span class="nt">&lt;/msqrt&gt;</span>&#x000A;    <span class="nt">&lt;/mrow&gt;</span>&#x000A;    <span class="nt">&lt;mrow&gt;</span>&#x000A;      <span class="nt">&lt;mn&gt;</span> 2 <span class="nt">&lt;/mn&gt;</span>&#x000A;      <span class="nt">&lt;mi&gt;</span> a <span class="nt">&lt;/mi&gt;</span>&#x000A;    <span class="nt">&lt;/mrow&gt;</span>&#x000A;  <span class="nt">&lt;/mfrac&gt;</span>&#x000A;<span class="nt">&lt;/math&gt;</span></code></pre>
+            
+            <h2 id="display-modes">Display modes</h2>
+            
+            <h3 id="no-beautification">No beautification</h3>
+            
+            <p>Characters stay handwritten until solving is activated manually, if needed. Text is then typeset and solved at the same time.</p>
+            
+            <div class="image align-center"><figure><img src="../images/maw-mode1.png" width="169" height="160" alt=""></figure></div>
+            
+            <h3 id="typeset">Typeset</h3>
+            
+            <p>Characters are automatically typeset after a short delay, using standard math fonts or custom fonts. If needed, solving has to be activated manually.</p>
+            
+            <div class="image align-center"><figure><img src="../images/maw-mode2.png" width="391" height="159" alt=""></figure></div>
+            
+            <h3 id="typeset-and-solve">Typeset and solve</h3>
+            
+            <p>Characters are typeset after a short delay, using standard math fonts or custom fonts. The whole operation is solved, provided that its characters are supported by the solver (see above).</p>
+            
+            <div class="image align-center"><figure><img src="../images/maw-mode3.png" width="804" height="160" alt=""></figure></div>
+            
+            <h2 id="integration">Integration</h2>
+            
+            <div class="alert alert-warning">
+            <span class="icon-warning"></span>General information about ATK (licenses, samples, etc.) is available in the <a href="../index.html#license-management">ATK Overview section</a>.</div>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>Please make sure to use the latest version of Android Studio and have all Android tools and SDK (level 15 or up) installed and configured properly.</div>
+            
+            <h3 id="step-1---download-your-certificate">Step 1 - Download your Certificate</h3>
+            
+            <ol>
+              <li>Download the certificate from the <a href="http://partners.myscript.com" target="_blank">Support website</a>.</li>
+              <li>Paste it in your project and start creating your app.</li>
+            </ol>
+            
+            <h3 id="step-2---configure-your-dependencies">Step 2 - Configure your Dependencies</h3>
+            
+            <ul>
+              <li>In the <code>build.gradle</code> file of your project, add:</li>
+            </ul>
+            
+            <pre><code class="language-groovy highlight highlight"><span class="n">repositories</span> <span class="o">{</span>&#x000A;    <span class="n">flatDir</span> <span class="o">{</span>&#x000A;        <span class="c1">// Location of your package's `libs` directory containing `*.aar` files.</span>&#x000A;        <span class="n">dirs</span> <span class="s1">'path/to/libs'</span>&#x000A;    <span class="o">}</span>&#x000A;<span class="o">}</span></code></pre>
+            
+            <ul>
+              <li>In the <code>dependencies</code> section, add:</li>
+            </ul>
+            
+            <pre><code class="language-groovy highlight highlight"><span class="n">compile</span> <span class="s1">'com.android.support:appcompat-v7:23.+'</span>&#x000A;&#x000A;<span class="n">compile</span><span class="o">(</span><span class="nl">name:</span> <span class="s1">'MyScript_ATK-Core-android-component'</span><span class="o">,</span> <span class="nl">ext:</span> <span class="s1">'aar'</span><span class="o">)</span>&#x000A;<span class="n">compile</span><span class="o">(</span><span class="nl">name:</span> <span class="s1">'MyScript_ATK-Math-android-component'</span><span class="o">,</span> <span class="nl">ext:</span> <span class="s1">'aar'</span><span class="o">)</span>&#x000A;<span class="n">compile</span><span class="o">(</span><span class="nl">name:</span> <span class="s1">'MyScript_ATK-MathWidget-android-widget'</span><span class="o">,</span> <span class="nl">ext:</span> <span class="s1">'aar'</span><span class="o">)</span></code></pre>
+            
+            <h3 id="step-3---add-resources">Step 3 - Add Resources</h3>
+            
+            <p>Copy the <code>assets</code> directory from <code>samples/MathWidgetSample/src/main</code> into your project. It contains the following files:</p>
+            
+            <ul>
+              <li>
+            <code>resources/math/math-ak.res</code>,</li>
+              <li>
+            <code>resources/math/math-grm-atk.res</code>,</li>
+              <li>
+            <code>conf/math.conf</code>.</li>
+            </ul>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>Resources are available for download on the <a href="http://partners.myscript.com" target="_blank">Support website</a>. You can also customize your own resources: Check the <a href="https://dev.myscript.com/tools/" target="_blank">Developer Tools</a> page to discover how.</div>
+            
+            <h3 id="step-4---add-a-layout-resource">Step 4 - Add a Layout Resource</h3>
+            
+            <p>To integrate the Math Widget view, add the following snippet in your layout.</p>
+            
+            <pre><code class="language-xml highlight highlight"><span class="nt">&lt;com.myscript.atk.math.widget.MathWidget</span>&#x000A;	<span class="na">android:id=</span><span class="s">"@+id/math_widget"</span>&#x000A;	<span class="na">android:layout_width=</span><span class="s">"fill_parent"</span>&#x000A;	<span class="na">android:layout_height=</span><span class="s">"fill_parent"</span>&#x000A;<span class="nt">/&gt;</span></code></pre>
+            
+            <h3 id="step-5---start-with-minimal-integration-code">Step 5 - Start with Minimal Integration Code</h3>
+            
+            <p>Edit the <code>MainActivity</code> class:</p>
+            
+            <pre><code class="language-java highlight highlight"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainActivity</span> <span class="kd">extends</span> <span class="n">AppCompatActivity</span> <span class="kd">implements</span>&#x000A;    <span class="n">MathWidgetApi</span><span class="o">.</span><span class="na">OnConfigureListener</span><span class="o">,</span>&#x000A;    <span class="n">MathWidgetApi</span><span class="o">.</span><span class="na">OnRecognitionListener</span>&#x000A;<span class="o">{</span>&#x000A;&#x000A;  <span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="n">String</span> <span class="n">TAG</span> <span class="o">=</span> <span class="s">"MathDemo"</span><span class="o">;</span>&#x000A;&#x000A;  <span class="kd">private</span> <span class="n">MathWidgetApi</span> <span class="n">widget</span><span class="o">;</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">protected</span> <span class="kt">void</span> <span class="n">onCreate</span><span class="o">(</span><span class="n">Bundle</span> <span class="n">savedInstanceState</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="kd">super</span><span class="o">.</span><span class="na">onCreate</span><span class="o">(</span><span class="n">savedInstanceState</span><span class="o">);</span>&#x000A;&#x000A;    <span class="n">setContentView</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">layout</span><span class="o">.</span><span class="na">activity_main</span><span class="o">);</span>&#x000A;&#x000A;    <span class="n">widget</span> <span class="o">=</span> <span class="o">(</span><span class="n">MathWidgetApi</span><span class="o">)</span> <span class="n">findViewById</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">math_widget</span><span class="o">);</span>&#x000A;    <span class="k">if</span> <span class="o">(!</span><span class="n">widget</span><span class="o">.</span><span class="na">registerCertificate</span><span class="o">(</span><span class="n">MyCertificate</span><span class="o">.</span><span class="na">getBytes</span><span class="o">()))</span>&#x000A;    <span class="o">{</span>&#x000A;      <span class="n">AlertDialog</span><span class="o">.</span><span class="na">Builder</span> <span class="n">dlgAlert</span>  <span class="o">=</span> <span class="k">new</span> <span class="n">AlertDialog</span><span class="o">.</span><span class="na">Builder</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setMessage</span><span class="o">(</span><span class="s">"Please use a valid certificate."</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setTitle</span><span class="o">(</span><span class="s">"Invalid certificate"</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setCancelable</span><span class="o">(</span><span class="kc">false</span><span class="o">);</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">setPositiveButton</span><span class="o">(</span><span class="s">"OK"</span><span class="o">,</span> <span class="k">new</span> <span class="n">DialogInterface</span><span class="o">.</span><span class="na">OnClickListener</span><span class="o">()</span>&#x000A;      <span class="o">{</span>&#x000A;        <span class="kd">public</span> <span class="kt">void</span> <span class="n">onClick</span><span class="o">(</span><span class="n">DialogInterface</span> <span class="n">dialog</span><span class="o">,</span> <span class="kt">int</span> <span class="n">which</span><span class="o">)</span>&#x000A;        <span class="o">{</span>&#x000A;          <span class="c1">//dismiss the dialog</span>&#x000A;        <span class="o">}</span>&#x000A;      <span class="o">});</span>&#x000A;      <span class="n">dlgAlert</span><span class="o">.</span><span class="na">create</span><span class="o">().</span><span class="na">show</span><span class="o">();</span>&#x000A;      <span class="k">return</span><span class="o">;</span>&#x000A;    <span class="o">}</span>&#x000A;&#x000A;    <span class="c1">// Listen to widget events (see onConfigureEnd and onRecognitionEnd APIs)</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnConfigureListener</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnRecognitionListener</span><span class="o">(</span><span class="k">this</span><span class="o">);</span>&#x000A;&#x000A;    <span class="c1">// references assets directly from the APK to avoid extraction in application</span>&#x000A;    <span class="c1">// file system</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">addSearchDir</span><span class="o">(</span><span class="s">"zip://"</span> <span class="o">+</span> <span class="n">getPackageCodePath</span><span class="o">()</span> <span class="o">+</span> <span class="s">"!/assets/conf"</span><span class="o">);</span>&#x000A;&#x000A;    <span class="c1">// The configuration is an asynchronous operation. Callbacks are provided to</span>&#x000A;    <span class="c1">// monitor the beginning and end of the configuration process and update the UI</span>&#x000A;    <span class="c1">// of the input method accordingly.</span>&#x000A;    <span class="c1">//</span>&#x000A;    <span class="c1">// "math" references the conf/math/math.conf file in your assets.</span>&#x000A;    <span class="c1">// "standard" references the configuration name in math.conf</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">configure</span><span class="o">(</span><span class="s">"math"</span><span class="o">,</span> <span class="s">"standard"</span><span class="o">);</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">protected</span> <span class="kt">void</span> <span class="n">onDestroy</span><span class="o">()</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnRecognitionListener</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">setOnConfigureListener</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span>&#x000A;&#x000A;    <span class="c1">// release widget's resources</span>&#x000A;    <span class="n">widget</span><span class="o">.</span><span class="na">release</span><span class="o">();</span>&#x000A;    <span class="kd">super</span><span class="o">.</span><span class="na">onDestroy</span><span class="o">();</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">public</span> <span class="kt">void</span> <span class="n">onConfigureBegin</span><span class="o">(</span><span class="n">MathWidgetApi</span> <span class="n">widget</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">public</span> <span class="kt">void</span> <span class="n">onConfigureEnd</span><span class="o">(</span><span class="n">MathWidgetApi</span> <span class="n">widget</span><span class="o">,</span> <span class="kt">boolean</span> <span class="n">success</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="k">if</span><span class="o">(!</span><span class="n">success</span><span class="o">)</span>&#x000A;    <span class="o">{</span>&#x000A;      <span class="n">Toast</span><span class="o">.</span><span class="na">makeText</span><span class="o">(</span><span class="n">getApplicationContext</span><span class="o">(),</span> <span class="n">widget</span><span class="o">.</span><span class="na">getErrorString</span><span class="o">(),</span> <span class="n">Toast</span><span class="o">.</span><span class="na">LENGTH_LONG</span><span class="o">).</span><span class="na">show</span><span class="o">();</span>&#x000A;      <span class="n">Log</span><span class="o">.</span><span class="na">e</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"Unable to configure the Math Widget: "</span> <span class="o">+</span> <span class="n">widget</span><span class="o">.</span><span class="na">getErrorString</span><span class="o">());</span>&#x000A;      <span class="k">return</span><span class="o">;</span>&#x000A;    <span class="o">}</span>&#x000A;    <span class="n">Toast</span><span class="o">.</span><span class="na">makeText</span><span class="o">(</span><span class="n">getApplicationContext</span><span class="o">(),</span> <span class="s">"Math Widget Configured"</span><span class="o">,</span> <span class="n">Toast</span><span class="o">.</span><span class="na">LENGTH_SHORT</span><span class="o">).</span><span class="na">show</span><span class="o">();</span>&#x000A;    <span class="k">if</span><span class="o">(</span><span class="n">BuildConfig</span><span class="o">.</span><span class="na">DEBUG</span><span class="o">)</span>&#x000A;      <span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"Math Widget configured!"</span><span class="o">);</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">public</span> <span class="kt">void</span> <span class="n">onRecognitionBegin</span><span class="o">(</span><span class="n">MathWidgetApi</span> <span class="n">widget</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;  <span class="o">}</span>&#x000A;&#x000A;  <span class="nd">@Override</span>&#x000A;  <span class="kd">public</span> <span class="kt">void</span> <span class="n">onRecognitionEnd</span><span class="o">(</span><span class="n">MathWidgetApi</span> <span class="n">widget</span><span class="o">)</span>&#x000A;  <span class="o">{</span>&#x000A;    <span class="n">Toast</span><span class="o">.</span><span class="na">makeText</span><span class="o">(</span><span class="n">getApplicationContext</span><span class="o">(),</span> <span class="s">"Recognition update"</span><span class="o">,</span> <span class="n">Toast</span><span class="o">.</span><span class="na">LENGTH_SHORT</span><span class="o">).</span><span class="na">show</span><span class="o">();</span>&#x000A;    <span class="k">if</span><span class="o">(</span><span class="n">BuildConfig</span><span class="o">.</span><span class="na">DEBUG</span><span class="o">)</span>&#x000A;    <span class="o">{</span>&#x000A;      <span class="n">Log</span><span class="o">.</span><span class="na">d</span><span class="o">(</span><span class="n">TAG</span><span class="o">,</span> <span class="s">"Math Widget recognition: "</span> <span class="o">+</span> <span class="n">widget</span><span class="o">.</span><span class="na">getResultAsText</span><span class="o">());</span>&#x000A;    <span class="o">}</span>&#x000A;  <span class="o">}</span>&#x000A;<span class="o">}</span></code></pre>
+            
+            <h2 id="api">API</h2>
+            
+            <p>See the <a href="../_/maw/ref/javadoc/index.html">API documentation for Android</a>.</p>
+          </article>
+        </div>
+        <div class="col-md-3 col-md-pull-9">
+          <aside class="sidebar hidden-print" role="complementary">
+            <nav class="toc" role="navigation">
+              <ul class="nav">
+                <li>
+                  <a href="#overview">Overview</a>
+                </li>
+                <li>
+                  <a href="#use-cases">Use cases</a>
+                </li>
+                <li>
+                  <a href="#features">Features</a>
+                </li>
+                <li>
+                  <a href="#supported-symbols">Supported symbols</a>
+                </li>
+                <li>
+                  <a href="#supported-rules">Supported rules</a>
+                </li>
+                <li>
+                  <a href="#supported-operations">Supported operations</a>
+                </li>
+                <li>
+                  <a href="#input-and-output-formats">Input and output formats</a>
+                </li>
+                <li>
+                  <a href="#display-modes">Display modes</a>
+                </li>
+                <li>
+                  <a href="#integration">Integration</a>
+                </li>
+                <li>
+                  <a href="#api">API</a>
+                </li>
+              </ul>
+              <a class="back-to-top" href="#top">Back to top</a>
+            </nav>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer class="container footer">
+      <hr>
+      <p>Copyright © 2016 MyScript&reg;. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="nanoc 3.8.0" name="generator">
+    <meta content="notranslate" name="google">
+    <title>MyScript Application Toolkit (ATK) | Widgets & Components</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="favicon.ico" rel="icon">
+    <link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="favicon-48x48.png" rel="icon" sizes="48x48" type="image/png">
+    <link href="favicon-64x64.png" rel="icon" sizes="64x64" type="image/png">
+    <link href="favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="android-128x128.png" rel="icon" sizes="128x128">
+    <link href="android-192x192.png" rel="icon" sizes="192x192">
+    <link href="apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link color="#00A7CF" href="safari-icon.svg" rel="mask-icon">
+    <meta content="MyScript Application Toolkit (ATK) | Widgets &amp; Components" name="application-name">
+    <meta content="#00A7CF" name="msapplication-TileColor">
+    <meta content="myscript-tile-small.png" name="msapplication-square70x70logo">
+    <meta content="myscript-tile-medium.png" name="msapplication-square150x150logo">
+    <meta content="myscript-tile-wide.png" name="msapplication-wide310x150logo">
+    <meta content="myscript-tile-large.png" name="msapplication-square310x310logo">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/all.js"></script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">skip to content</a>
+    <a id="top"></a>
+    <header class="header">
+      <nav class="primary-nav navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-target="#primary-nav" data-toggle="collapse" type="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">Widgets & Components</a>
+          </div>
+          <div class="collapse navbar-collapse" id="primary-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./index.html">Overview</a></li>
+              <li><a href="text.html">Text</a></li>
+              <li><a href="math.html">Math</a></li>
+              <li><a href="graphics.html">Graphics</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--[if lt IE 9 ]>
+      <div class="container browser-upgrade alert alert-danger alert-dismissable">
+        <button aria-hidden="true" class="close" data-dismiss="alert" type="button">&times;</button>
+        You are using an <strong>outdated</strong> browser.
+        Please <a href="http://browsehappy.com/">upgrade</a> to improve your
+        experience.
+      </div>
+    <![endif]-->
+    <header class="jumbotron primary">
+      <div class="container">
+        <h1 class="title">MyScript Application Toolkit (ATK)</h1>
+      </div>
+    </header>
+    <main class="container" id="content">
+      <div class="row page">
+        <div class="col-md-9 col-md-push-3" role="main">
+          <article class="page">
+            
+            <p>This documentation aims at helping you integrate our MyScript widgets and components into your applications. It is intended for developers with good knowledge of object-oriented programming.</p>
+            
+            <p>For more information on
+            <a href="text.html">Text</a>, <a href="math.html">Math</a>, <a href="graphics.html">Graphics</a>, 
+            click on the corresponding tab in the top-right menu.</p>
+            
+            <h2 id="certificate">Certificate</h2>
+            
+            <p>A certificate is required to use the MyScript handwriting recognition engine and gives the right to use the ATK. Each certificate gives access to all widgets for a given platform.</p>
+            
+            <p>You can download it from the <a href="http://partners.myscript.com" target="_blank">Support website</a>.</p>
+            
+            <h2 id="sample-execution">Sample Execution</h2>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>To integrate MyScript widgets and components on Android, you must be using the latest version of <a href="http://developer.android.com/sdk/index.html" target="_blank">Android Studio</a> and have all Android tools and SDK (level 15 or up) installed and configured properly.</div>
+            
+            <ol>
+              <li>
+                <p>Unzip <code>MyScript_ATK_OEM-android-*.zip</code> to obtain this tree:</p>
+            
+                <ul>
+                  <li>
+            <code>docs</code>  -  Contains the whole documentation (installation, functional, API).</li>
+                  <li>
+            <code>libs</code>  -  Contains libraries.</li>
+                  <li>
+            <code>samples</code>  -  Contains sample applications, showing basic use cases.</li>
+                  <li>
+            <code>third_party</code>  -  Contains ATK and third-party licenses.</li>
+                  <li>
+            <code>atk-info.json</code>  -  Contains information about the version numbers.</li>
+                </ul>
+              </li>
+              <li>
+                <p>Copy the downloaded certificate into <code>samples/myscript-certificate/src/main/java/com/myscript/certificate/MyCertificate.java</code> to replace the existing one. <br>
+            From now on, samples can be built and launched.</p>
+              </li>
+              <li>
+                <p>In Android Studio, click <strong>Open an existing Android Studio project</strong> and browse towards the <code>samples</code> folder of your package.</p>
+              </li>
+              <li>
+                <p>Build and run your sample.</p>
+              </li>
+            </ol>
+            
+            <div class="alert alert-info">
+            <span class="icon-info2"></span>For more information on Gradle builds, please refer to the <a href="http://tools.android.com/tech-docs/new-build-system/user-guide" target="_blank">Gradle documentation</a>.</div>
+          </article>
+        </div>
+        <div class="col-md-3 col-md-pull-9">
+          <aside class="sidebar hidden-print" role="complementary">
+            <nav class="toc" role="navigation">
+              <ul class="nav">
+                <li>
+                  <a href="#certificate">Certificate</a>
+                </li>
+                <li>
+                  <a href="#sample-execution">Sample Execution</a>
+                </li>
+              </ul>
+              <a class="back-to-top" href="#top">Back to top</a>
+            </nav>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer class="container footer">
+      <hr>
+      <p>Copyright © 2016 MyScript&reg;. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

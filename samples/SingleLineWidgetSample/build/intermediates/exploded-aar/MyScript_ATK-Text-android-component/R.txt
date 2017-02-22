@@ -1,0 +1,2 @@
+int string myscript_core_placeholder 0x7f020000
+int string myscript_text_placeholder 0x7f020001

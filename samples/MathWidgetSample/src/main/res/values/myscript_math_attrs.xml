@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MAW">
+        
+        <!-- Text -->
+        <attr name="maw_fontName" format="reference|string" />
+        <attr name="maw_italicFontName" format="reference|string" />
+        <attr name="maw_textColor" format="reference|color" />
+        <attr name="maw_transientColor" format="reference|color" />
+        
+        <!-- Ink -->
+        <attr name="maw_inkColor" format="reference|color" />
+        <attr name="maw_inkThickness" format="reference|integer" />
+        
+        <!-- Write area -->
+        <attr name="maw_backgroundColor" format="reference|color" />
+        <attr name="maw_backgroundDrawable" format="reference" />
+        <attr name="maw_paddingRatioTop" format="reference|integer" />
+        <attr name="maw_paddingRatioBottom" format="reference|integer" />
+        <attr name="maw_paddingRatioLeft" format="reference|integer" />
+        <attr name="maw_paddingRatioRight" format="reference|integer" />
+        
+        <!-- Baseline -->
+        <attr name="maw_baselineColor" format="reference|color" />
+        <attr name="maw_baselineThickness" format="reference|integer" />
+        
+        <!-- Palm rejection -->
+        <attr name="maw_palmRejectionEnabled" format="boolean" />
+        <attr name="maw_palmRejectionHand">
+          <flag name="left" value="0x01" />
+          <flag name="right" value="0x02" />
+       </attr>
+        
+        <!-- Recognition timeout -->
+        <attr name="maw_recoTimeout" format="reference|integer" />
+        
+        <!-- Solver -->
+        <attr name="maw_decimalsCount" format="reference|integer" />
+        <attr name="maw_angleUnit">
+          <flag name="radian" value="0x00" />
+          <flag name="degree" value="0x01" />
+       </attr>
+        <attr name="maw_beautificationOption" format="reference|integer">
+          <flag name="disabled" value="0" />
+          <flag name="fontify" value="1" />
+          <flag name="fontifyAndSolve" value="2" />
+       </attr>
+    </declare-styleable>    
+</resources>

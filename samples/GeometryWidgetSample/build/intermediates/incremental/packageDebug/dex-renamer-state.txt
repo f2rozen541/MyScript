@@ -1,0 +1,7 @@
+#Wed Feb 22 16:42:55 CST 2017
+base.0=C\:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\GeometryWidgetSample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_80511b2078012a5ade99417d8d037c39957a47ee
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\GeometryWidgetSample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c80b85ccca5bdcf75c2eb06d9a699f9602eae4e3\\classes.dex
+base.1=C\:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\GeometryWidgetSample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c80b85ccca5bdcf75c2eb06d9a699f9602eae4e3
+file.0=C\:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\GeometryWidgetSample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_80511b2078012a5ade99417d8d037c39957a47ee\\classes.dex

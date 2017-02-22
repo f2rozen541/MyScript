@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DiagramWidgetSample/DiagramWidgetSample.iml" filepath="$PROJECT_DIR$/DiagramWidgetSample/DiagramWidgetSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GeometryWidgetSample/GeometryWidgetSample.iml" filepath="$PROJECT_DIR$/GeometryWidgetSample/GeometryWidgetSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MathWidgetSample/MathWidgetSample.iml" filepath="$PROJECT_DIR$/MathWidgetSample/MathWidgetSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingleCharWidgetSample/SingleCharWidgetSample.iml" filepath="$PROJECT_DIR$/SingleCharWidgetSample/SingleCharWidgetSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingleLineWidgetSample/SingleLineWidgetSample.iml" filepath="$PROJECT_DIR$/SingleLineWidgetSample/SingleLineWidgetSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myscript-certificate/myscript-certificate.iml" filepath="$PROJECT_DIR$/myscript-certificate/myscript-certificate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples.iml" filepath="$PROJECT_DIR$/samples.iml" />
+    </modules>
+  </component>
+</project>

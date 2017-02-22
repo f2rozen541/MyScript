@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beautify">转换</string>
+    <string name="copy">复制</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="finish">完成</string>
+    <string name="set_as_doodle">设置为涂鸦</string>
+    <string name="typeset">转换</string>
+</resources>

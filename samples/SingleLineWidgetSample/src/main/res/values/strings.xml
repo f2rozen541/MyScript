@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Single Line Widget Sample</string>
+    <string name="app_title">SLTW Example</string>
+    <string name="emoticon_button">:-)</string>
+    <string name="space_button">Space</string>
+    <string name="delete_button">Del</string>
+    <string name="action_clear">Clear</string>
+    <string name="effect_felt_pen">Felt pen</string>
+    <string name="effect_fountain_pen">Fountain pen</string>
+    <string name="effect_calligraphic_brush">Calligraphic brush</string>
+    <string name="effect_calligraphic_quill">Calligraphic quill</string>
+    <string name="effect_qalam">Qalam</string>
+    <string name="input_text"></string>
+</resources>

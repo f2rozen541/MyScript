@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="MyScript_ATK-GeometryWidget-android-widget-">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/GeometryWidgetSample/build/intermediates/exploded-aar/MyScript_ATK-GeometryWidget-android-widget/res" />
+      <root url="jar://$PROJECT_DIR$/GeometryWidgetSample/build/intermediates/exploded-aar/MyScript_ATK-GeometryWidget-android-widget/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

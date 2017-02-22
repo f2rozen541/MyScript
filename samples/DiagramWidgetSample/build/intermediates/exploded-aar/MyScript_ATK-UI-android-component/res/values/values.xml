@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_focused_shape_background">#5A6066</color>
+    <color name="button_focused_transparent_background">#00bfbfbf</color>
+    <color name="button_normal_shape_background">#959DA6</color>
+    <color name="button_normal_transparent_background">#00ffffff</color>
+    <color name="button_selected_shape_background">#5A6066</color>
+    <color name="button_selected_transparent_background">#7f7f7f</color>
+    <color name="button_state_focused_bg">#CED2D6</color>
+    <color name="button_state_normal_bg">#F5F6F7</color>
+    <color name="button_state_selected_bg">#CED2D6</color>
+    <color name="menu_background">#dfdfdf</color>
+    <color name="menu_text">#000000</color>
+    <color name="prompter_line">#959DA6</color>
+    <color name="prompter_text_normal">#959DA6</color>
+    <dimen name="prompter_empty_width">0dp</dimen>
+    <dimen name="prompter_item_padding">13dp</dimen>
+    <dimen name="prompter_shape_menu_text_width">160dp</dimen>
+    <dimen name="prompter_text_size">14dp</dimen>
+    <string name="beautify">Convert</string>
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="finish">Finish</string>
+    <string name="mathapprox">mathapprox</string>
+    <string name="mathdec">mathdec</string>
+    <string name="mathdegrad">mathdegrad</string>
+    <string name="mathsolver">mathsolver</string>
+    <string name="set_as_doodle">Set as doodle</string>
+    <string name="typeset">Convert</string>
+</resources>

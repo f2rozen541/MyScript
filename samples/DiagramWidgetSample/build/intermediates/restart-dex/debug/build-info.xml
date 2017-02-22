@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86,armeabi-v7a,armeabi,arm64-v8a"
+    api-level="23"
+    density="280dpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="575688629697264"
+    token="-523467698881714342"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="667" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="505" />
+    <task
+        name="verifier"
+        duration="94" />
+
+    <artifact
+        location="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\outputs\apk\DiagramWidgetSample-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="575688629697264"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\wangkun20\Desktop\ScriptTest\MyScript_ATK-android\samples\DiagramWidgetSample\build\outputs\apk\DiagramWidgetSample-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

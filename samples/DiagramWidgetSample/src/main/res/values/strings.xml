@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Diagram Widget Sample</string>
+  <string name="activity_name">Diagram Widget Sample</string>
+
+
+  <string name="action_clear">clear</string>
+  <string name="action_undo">undo</string>
+  <string name="action_redo">redo</string>
+  <string name="action_convert">convert</string>
+
+</resources>

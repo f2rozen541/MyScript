@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">Geometry Widget Sample</string>
+  <string name="activity_name">Geometry Widget Sample</string>
+
+  <string name="action_clear">clear</string>
+
+</resources>

@@ -1,0 +1,140 @@
+[
+    {
+        "outputFile": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\exploded-aar\\MyScript_ATK-UI-android-component\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 44,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 37,
+                    "endOffset": 133
+                },
+                "from": {
+                    "file": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\exploded-aar\\MyScript_ATK-UI-android-component\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 37,
+                        "endOffset": 133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 138,
+                    "endColumn": 41,
+                    "endOffset": 175
+                },
+                "from": {
+                    "file": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\exploded-aar\\MyScript_ATK-UI-android-component\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 138,
+                        "endColumn": 41,
+                        "endOffset": 175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 180,
+                    "endColumn": 37,
+                    "endOffset": 213
+                },
+                "from": {
+                    "file": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\exploded-aar\\MyScript_ATK-UI-android-component\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 37,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 218,
+                    "endColumn": 41,
+                    "endOffset": 255
+                },
+                "from": {
+                    "file": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\exploded-aar\\MyScript_ATK-UI-android-component\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endColumn": 41,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endColumn": 55,
+                    "endOffset": 311
+                },
+                "from": {
+                    "file": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\exploded-aar\\MyScript_ATK-UI-android-component\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 55,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 316,
+                    "endColumn": 43,
+                    "endOffset": 355
+                },
+                "from": {
+                    "file": "C:\\Users\\wangkun20\\Desktop\\ScriptTest\\MyScript_ATK-android\\samples\\DiagramWidgetSample\\build\\intermediates\\exploded-aar\\MyScript_ATK-UI-android-component\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 316,
+                        "endColumn": 43,
+                        "endOffset": 355
+                    }
+                }
+            }
+        ]
+    }
+]
